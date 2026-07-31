@@ -1,0 +1,146 @@
+{
+  "name": "@codex-sidepanel/extension",
+  "displayName": "Chromex",
+  "version": "0.1.7",
+  "description": "Chromex AI + Social AIO Extension",
+  "license": "MIT",
+  "author": "GenexisAI CHOI",
+  "scripts": {
+    "dev": "pnpm run copy-locales && plasmo dev",
+    "build": "plasmo build && pnpm run copy-locales:prod",
+    "build:esbuild": "node ../../scripts/build-extension.mjs",
+    "copy-locales": "robocopy src/_locales build/chrome-mv3-dev/_locales /E /NJH /NJS /NFL /NDL /NC /NS /NP || cmd /c \"exit /b 0\"",
+    "copy-locales:prod": "robocopy src/_locales build/chrome-mv3-prod/_locales /E /NJH /NJS /NFL /NDL /NC /NS /NP || cmd /c \"exit /b 0\"",
+    "package": "plasmo package",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@ant-design/cssinjs": "^1.1.8",
+    "@ant-design/icons": "^5.3.0",
+    "ahooks": "^3.7.8",
+    "@codex-sidepanel/shared": "workspace:*",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
+    "@dnd-kit/core": "^6.1.0",
+    "@lottiefiles/dotlottie-react": "^0.19.2",
+    "@ngneat/elf": "^2.5.1",
+    "@ngneat/elf-entities": "^5.0.2",
+    "@ngneat/elf-persist-state": "^1.1.1",
+    "dayjs": "^1.11.10",
+    "elf-sync-state": "^1.0.1",
+    "lodash": "^4.17.21",
+    "@ngneat/react-rxjs": "^1.1.0",
+    "@plasmohq/storage": "latest",
+    "antd": "^5.23.0",
+    "axios": "^1.6.7",
+    "i18next": "^23.10.0",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "i18next-http-backend": "^2.5.0",
+    "lucide": "^1.11.0",
+    "lucide-react": "^1.14.0",
+    "plasmo": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^14.0.5",
+    "react-icons": "^5.6.0",
+    "rxjs": "^7.8.1",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.258",
+    "@types/file-saver": "^2.0.7",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "autoprefixer": "10.4.17",
+    "postcss": "8.4.35",
+    "tailwindcss": "3.4.1",
+    "typescript": "5.3.3"
+  },
+  "manifest": {
+    "permissions": [
+      "offscreen",
+      "sidePanel",
+      "activeTab",
+      "tabs",
+      "scripting",
+      "storage",
+      "contextMenus",
+      "nativeMessaging",
+      "desktopCapture",
+      "declarativeNetRequest",
+      "declarativeNetRequestFeedback",
+      "notifications"
+    ],
+    "optional_permissions": [
+      "history"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "externally_connectable": {
+      "matches": [
+        "https://app.shipxanh.com/*",
+        "https://*.shipxanh.com/*"
+      ]
+    },
+    "side_panel": {
+      "default_path": "sidepanel.html"
+    },
+    "declarative_net_request": {
+      "rule_resources": [
+        {
+          "id": "rules_1",
+          "enabled": false,
+          "path": "../rules1.json"
+        },
+        {
+          "id": "rules_phishing_1",
+          "enabled": false,
+          "path": "../phishing1.json"
+        },
+        {
+          "id": "rules_phishing_2",
+          "enabled": false,
+          "path": "../phishing2.json"
+        }
+      ]
+    },
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "icons/*",
+          "assets/*",
+          "*.js",
+          "*.css",
+          "*.html",
+          "*.lottie",
+          "scripts/*",
+          "locales/*",
+          "tabs/*"
+        ],
+        "matches": [
+          "<all_urls>"
+        ]
+      }
+    ],
+    "commands": {
+      "open-side-panel": {
+        "description": "Open Chromex side panel"
+      },
+      "open-popup-chat": {
+        "description": "Open popup chat"
+      },
+      "start-dictation": {
+        "suggested_key": {
+          "default": "Alt+Shift+D",
+          "mac": "Command+Shift+D"
+        },
+        "description": "Start dictation"
+      }
+    },
+    "default_locale": "en"
+  }
+}

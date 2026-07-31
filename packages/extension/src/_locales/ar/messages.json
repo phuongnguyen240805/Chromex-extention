@@ -1,0 +1,630 @@
+{
+    "extension_name":  {
+                           "message":  "Social AIO"
+                       },
+    "extension_description":  {
+                                  "message":  "مجموعة أدوات شاملة لـ Facebook و Instagram و Threads و TikTok"
+                              },
+    "search_placeholder":  {
+                               "message":  "البحث عن الأدوات... (Facebook، TikTok، المفتش...)"
+                           },
+    "go_premium":  {
+                       "message":  "الترقية إلى بريميوم"
+                   },
+    "support":  {
+                    "message":  "الدعم"
+                },
+    "edit_dock":  {
+                      "message":  "تعديل الشريط"
+                  },
+    "ai_summarize":  {
+                         "message":  "ملخص الذكاء الاصطناعي"
+                     },
+    "facebook_tools":  {
+                           "message":  "أدوات فيسبوك"
+                       },
+    "tiktok_tools":  {
+                         "message":  "أدوات تيك توك"
+                     },
+    "threads_tools":  {
+                          "message":  "أدوات ثريدز"
+                      },
+    "instagram_tools":  {
+                            "message":  "أدوات إنستغرام"
+                        },
+    "cross_platform":  {
+                           "message":  "عبر المنصات"
+                       },
+    "code_category":  {
+                          "message":  "برمجة"
+                      },
+    "social_media_category":  {
+                                  "message":  "وسائل التواصل الاجتماعي"
+                              },
+    "website_category":  {
+                             "message":  "مواقع الويب"
+                         },
+    "security_privacy_category":  {
+                                      "message":  "الأمن والخصوصية"
+                                  },
+    "inspector":  {
+                      "message":  "مفتش العناصر"
+                  },
+    "analyzer":  {
+                     "message":  "المحلل"
+                 },
+    "mover":  {
+                  "message":  "المحرك"
+              },
+    "visual_editor":  {
+                          "message":  "المحرر المرئي"
+                      },
+    "image_element":  {
+                          "message":  "عنصر الصورة"
+                      },
+    "meta_viewer":  {
+                        "message":  "عرض الميتا"
+                    },
+    "link_extractor":  {
+                           "message":  "مستخرج الروابط"
+                       },
+    "media_extractor":  {
+                            "message":  "مستخرج الوسائط"
+                        },
+    "open_graph":  {
+                       "message":  "Open Graph"
+                   },
+    "site_stack":  {
+                       "message":  "تقنيات الموقع"
+                   },
+    "anti_phishing":  {
+                          "message":  "حماية ضد الاحتيال"
+                      },
+    "block_pixel":  {
+                        "message":  "حظر فيسبوك بيكسل"
+                    },
+    "block_pixel_desc":  {
+                             "message":  "حظر بكسلات التتبع الخاصة بفيسبوك"
+                         },
+    "block_seen_chat":  {
+                            "message":  "حظر قراءة الرسائل (الدردشة)"
+                        },
+    "block_seen_chat_desc":  {
+                                 "message":  "إخفاء حالة القراءة في دردشة فيسبوك"
+                             },
+    "block_typing_chat":  {
+                              "message":  "حظر مؤشر الكتابة (الدردشة)"
+                          },
+    "block_typing_chat_desc":  {
+                                   "message":  "إخفاء مؤشر الكتابة في الدردشة"
+                               },
+    "block_seen_story":  {
+                             "message":  "حظر مشاهدة القصص (ستوري)"
+                         },
+    "block_seen_story_desc":  {
+                                  "message":  "إخفاء حالة المشاهدة في قصص فيسبوك"
+                              },
+    "stop_news_feed":  {
+                           "message":  "إيقاف آخر الأخبار"
+                       },
+    "stop_news_feed_desc":  {
+                                "message":  "إيقاف تحميل الأخبار الجديدة للتركيز"
+                            },
+    "show_reactions":  {
+                           "message":  "إظهار التفاعلات التفصيلية"
+                       },
+    "show_reactions_desc":  {
+                                "message":  "رؤية العدد الدقيق للإعجابات/القلوب على المنشورات"
+                            },
+    "fb_video_download":  {
+                              "message":  "زر تحميل الفيديو السريع"
+                          },
+    "fb_video_download_desc":  {
+                                   "message":  "إظهار زر التحميل على مقاطع الفيديو"
+                               },
+    "show_timer":  {
+                       "message":  "إظهار مؤقت الاستخدام"
+                   },
+    "show_timer_desc":  {
+                            "message":  "عرض الوقت الذي تقضيه على فيسبوك"
+                        },
+    "fb_timer_summary":  {
+                             "message":  "لقد قضيت وقتاً على فيسبوك اليوم."
+                         },
+    "premium_title":  {
+                          "message":  "برو"
+                      },
+    "premium_subtitle":  {
+                             "message":  "ميزات متقدمة للمستخدمين المحترفين"
+                         },
+    "premium_popular":  {
+                            "message":  "الأكثر شيوعاً"
+                        },
+    "premium_price_period":  {
+                                 "message":  "/شهر"
+                             },
+    "premium_cta":  {
+                        "message":  "احصل على بريميوم الآن"
+                    },
+    "premium_feature_free":  {
+                                 "message":  "كل شيء في النسخة المجانية"
+                             },
+    "premium_feature_friends":  {
+                                    "message":  "إدارة أصدقائك بسهولة"
+                                },
+    "premium_feature_groups":  {
+                                   "message":  "إدارة المجموعات التي تديرها"
+                               },
+    "premium_feature_ai":  {
+                               "message":  "تقييم المنشورات بالذكاء الاصطناعي (BYOK)"
+                           },
+    "premium_feature_comments":  {
+                                     "message":  "فاحص التعليقات"
+                                 },
+    "premium_feature_requests":  {
+                                     "message":  "إدارة طلبات الصداقة"
+                                 },
+    "premium_feature_download":  {
+                                     "message":  "تحميل مقاطع الفيديو من فيسبوك وإنستغرام"
+                                 },
+    "premium_feature_security":  {
+                                     "message":  "لوحة تحكم أمن الحساب"
+                                 },
+    "premium_feature_backup":  {
+                                   "message":  "أداة النسخ الاحتياطي (تصدير الأصدقاء، المجموعات، الصفحات)"
+                               },
+    "premium_feature_liked_pages":  {
+                                        "message":  "إدارة الصفحات التي أعجبتك"
+                                    },
+    "premium_feature_joined_groups":  {
+                                          "message":  "إدارة المجموعات التي انضممت إليها"
+                                      },
+    "premium_feature_sent_requests":  {
+                                          "message":  "إدارة الطلبات المرسلة"
+                                      },
+    "premium_feature_early_access":  {
+                                         "message":  "وصول مبكر للميزات الجديدة"
+                                     },
+    "fb_cat_features":  {
+                            "message":  "ميزات فيسبوك"
+                        },
+    "fb_tool_home":  {
+                         "message":  "الرئيسية"
+                     },
+    "fb_tool_security":  {
+                             "message":  "أمن الحساب"
+                         },
+    "fb_tool_friends":  {
+                            "message":  "الأصدقاء"
+                        },
+    "fb_tool_liked_pages":  {
+                                "message":  "الصفحات المعجب بها"
+                            },
+    "fb_tool_my_posts":  {
+                             "message":  "منشوراتي"
+                         },
+    "fb_tool_joined_groups":  {
+                                  "message":  "المجموعات المنضم إليها"
+                              },
+    "fb_tool_group_settings":  {
+                                   "message":  "إدارة المجموعات"
+                               },
+    "fb_tool_following":  {
+                              "message":  "المتابعة"
+                          },
+    "fb_cat_management":  {
+                              "message":  "أدوات الإدارة"
+                          },
+    "fb_tool_backup":  {
+                           "message":  "أداة النسخ الاحتياطي"
+                       },
+    "fb_tool_ai_chat":  {
+                            "message":  "دردشة الذكاء الاصطناعي"
+                        },
+    "fb_tool_video_download":  {
+                                   "message":  "تحميل الفيديو"
+                               },
+    "fb_tool_comment_scan":  {
+                                 "message":  "فحص التعليقات"
+                             },
+    "fb_tool_block_list":  {
+                               "message":  "مدير قائمة الحظر"
+                           },
+    "fb_tool_bookmarks":  {
+                              "message":  "الإشارات المرجعية"
+                          },
+    "fb_tool_get_id":  {
+                           "message":  "الحصول على معرف فيسبوك"
+                       },
+    "fb_tool_global_ban":  {
+                               "message":  "حظر عالمي"
+                           },
+    "fb_cat_free":  {
+                        "message":  "أدوات مجانية"
+                    },
+    "fb_tool_gmail_dot":  {
+                              "message":  "خدعة نقطة جيميل"
+                          },
+    "fb_tool_qr_gen":  {
+                           "message":  "مولد رمز QR"
+                       },
+    "fb_tool_my_ip":  {
+                          "message":  "ما هو عنوان IP الخاص بي؟"
+                      },
+    "fb_tool_pass_gen":  {
+                             "message":  "مولد كلمات المرور"
+                         },
+    "fb_tool_screenshot_beauty":  {
+                                      "message":  "تجميل لقطات الشاشة"
+                                  },
+    "fb_tool_photo_booth":  {
+                                "message":  "كشك الصور"
+                            },
+    "fb_tool_email_sig":  {
+                              "message":  "توقيع البريد الإلكتروني"
+                          },
+    "fb_tool_cv_gen":  {
+                           "message":  "منشئ السيرة الذاتية"
+                       },
+    "fb_cat_utility":  {
+                           "message":  "أدوات مساعدة"
+                       },
+    "fb_tool_typing_test":  {
+                                "message":  "اختبار سرعة الكتابة"
+                            },
+    "fb_tool_lucky_wheel":  {
+                                "message":  "عجلة الحظ"
+                            },
+    "fb_tool_bmi_calc":  {
+                             "message":  "حاسبة مؤشر كتلة الجسم"
+                         },
+    "fb_tool_sleep_calc":  {
+                               "message":  "حاسبة النوم"
+                           },
+    "fb_tool_currency_conv":  {
+                                  "message":  "محول العملات"
+                              },
+    "fb_tool_contrast_checker":  {
+                                     "message":  "فاحص التباين"
+                                 },
+    "fb_tool_palette_extract":  {
+                                    "message":  "استخراج لوحة الألوان"
+                                },
+    "fb_tool_date_calc":  {
+                              "message":  "حاسبة التاريخ"
+                          },
+    "fb_cat_code":  {
+                        "message":  "التحويل والبرمجة"
+                    },
+    "fb_tool_percent_calc":  {
+                                 "message":  "حاسبة النسبة المئوية"
+                             },
+    "fb_tool_pomodoro":  {
+                             "message":  "مؤقت بومودورو"
+                         },
+    "fb_tool_word_count":  {
+                               "message":  "عداد الكلمات"
+                           },
+    "fb_tool_csv_json":  {
+                             "message":  "تحويل CSV إلى JSON"
+                         },
+    "fb_tool_aspect_ratio":  {
+                                 "message":  "حاسبة نسبة العرض إلى الارتفاع"
+                             },
+    "fb_tool_qr_reader":  {
+                              "message":  "قارئ رمز QR"
+                          },
+    "fb_tool_random_gen":  {
+                               "message":  "مولد أرقام عشوائية"
+                           },
+    "fb_tool_color_conv":  {
+                               "message":  "محول الألوان"
+                           },
+    "fb_cat_developer":  {
+                             "message":  "أدوات المطورين"
+                         },
+    "fb_tool_utm_gen":  {
+                            "message":  "مولد روابط الحملات"
+                        },
+    "fb_tool_stopwatch":  {
+                              "message":  "ساعة توقيت"
+                          },
+    "fb_tool_fake_data":  {
+                              "message":  "مولد بيانات وهمية"
+                          },
+    "fb_tool_uuid_gen":  {
+                             "message":  "مولد UUID"
+                         },
+    "fb_tool_scrollbar_gen":  {
+                                  "message":  "تخصيص شريط التمرير"
+                              },
+    "fb_tool_js_obf":  {
+                           "message":  "تشفير JS"
+                       },
+    "fb_tool_crontab":  {
+                            "message":  "شرح Crontab"
+                        },
+    "fb_tool_js_beautify":  {
+                                "message":  "تجميل JS"
+                            },
+    "fb_cat_text":  {
+                        "message":  "أدوات النصوص والبيانات"
+                    },
+    "fb_tool_curl_code":  {
+                              "message":  "تحويل Curl إلى كود"
+                          },
+    "fb_tool_jwt":  {
+                        "message":  "مصحح JWT"
+                    },
+    "fb_tool_json_editor":  {
+                                "message":  "محرر JSON"
+                            },
+    "fb_tool_meta_gen":  {
+                             "message":  "مولد علامات الميتا"
+                         },
+    "fb_tool_md_editor":  {
+                              "message":  "محرر مارك داون"
+                          },
+    "fb_tool_text_diff":  {
+                              "message":  "مقارنة النصوص"
+                          },
+    "fb_tool_base64":  {
+                           "message":  "محول Base64"
+                       },
+    "fb_tool_url_enc":  {
+                            "message":  "تشفير/فك تشفير الروابط"
+                        },
+    "fb_cat_conversion":  {
+                              "message":  "أدوات التحويل"
+                          },
+    "fb_tool_unix_time":  {
+                              "message":  "تحويل وقت Unix"
+                          },
+    "fb_tool_hash":  {
+                         "message":  "تشفير النص (Hash)"
+                     },
+    "fb_tool_lorem":  {
+                          "message":  "مولد نص Lorem Ipsum"
+                      },
+    "fb_tool_img_resize":  {
+                               "message":  "تغيير حجم الصور"
+                           },
+    "ig_cat_automation":  {
+                              "message":  "الأتمتة"
+                          },
+    "ig_tool_auto_like":  {
+                              "message":  "إعجاب تلقائي بالخلاصات"
+                          },
+    "ig_tool_unfollow":  {
+                             "message":  "إلغاء متابعة من لا يتابعك"
+                         },
+    "ig_tool_quick_reply":  {
+                                "message":  "رد سريع في الرسائل"
+                            },
+    "ig_cat_content":  {
+                           "message":  "المحتوى والتحميل"
+                       },
+    "ig_tool_story_dl":  {
+                             "message":  "تحميل القصص"
+                         },
+    "ig_tool_post_dl":  {
+                            "message":  "حفظ صور/فيديوهات المنشورات"
+                        },
+    "ig_tool_analytics":  {
+                              "message":  "تحليلات الملف الشخصي"
+                          },
+    "tt_cat_downloader":  {
+                              "message":  "المحمل"
+                          },
+    "tt_tool_no_wm":  {
+                          "message":  "تحميل بدون علامة مائية"
+                      },
+    "tt_tool_mp3":  {
+                        "message":  "حفظ صوت MP3"
+                    },
+    "tt_tool_batch":  {
+                          "message":  "تحميل جماعي للملفات الشخصية"
+                      },
+    "tt_cat_automation":  {
+                              "message":  "الأتمتة"
+                          },
+    "tt_tool_scroll":  {
+                           "message":  "تمرير تلقائي"
+                       },
+    "tt_tool_hashtag":  {
+                            "message":  "مولد الوسوم"
+                        },
+    "tt_tool_like":  {
+                         "message":  "إعجاب تلقائي بالمقاطع"
+                     },
+    "th_cat_moderation":  {
+                              "message":  "الإشراف"
+                          },
+    "th_tool_hide_cmts":  {
+                              "message":  "إخفاء التعليقات بالجملة"
+                          },
+    "th_tool_cleanup":  {
+                            "message":  "تنظيف الواجهة"
+                        },
+    "th_tool_antispam":  {
+                             "message":  "فلتر منع الرسائل المزعجة"
+                         },
+    "th_cat_utility":  {
+                           "message":  "أدوات مساعدة"
+                       },
+    "th_tool_export":  {
+                           "message":  "تصدير ثريد"
+                       },
+    "th_tool_batch_dl":  {
+                             "message":  "تحميل الوسائط بالجملة"
+                         },
+    "th_tool_search_opt":  {
+                               "message":  "محسن البحث"
+                           },
+    "vi_cat_simulators":  {
+                              "message":  "المحاكيات"
+                          },
+    "vi_tool_hacker":  {
+                           "message":  "هكر"
+                       },
+    "vi_tool_bios":  {
+                         "message":  "Bios CMOS"
+                     },
+    "vi_tool_google_term":  {
+                                "message":  "ترمينال جوجل"
+                            },
+    "vi_tool_startup":  {
+                            "message":  "شاشة بدء التشغيل"
+                        },
+    "vi_tool_dos":  {
+                        "message":  "نظام Dos أونلاين"
+                    },
+    "vi_tool_norton":  {
+                           "message":  "Norton Commander"
+                       },
+    "vi_tool_winxp_sim":  {
+                              "message":  "محاكي ويندوز XP"
+                          },
+    "vi_tool_jurassic_surv":  {
+                                  "message":  "مراقبة العصر الجوراسي"
+                              },
+    "vi_tool_jurassic_con":  {
+                                 "message":  "كونسول العصر الجوراسي"
+                             },
+    "vi_cat_updates":  {
+                           "message":  "تحديثات وهمية"
+                       },
+    "vi_tool_apple":  {
+                          "message":  "Apple iOS"
+                      },
+    "vi_tool_win7":  {
+                         "message":  "Windows 7"
+                     },
+    "vi_tool_winxp":  {
+                          "message":  "Windows XP"
+                      },
+    "vi_tool_win10":  {
+                          "message":  "Windows 10"
+                      },
+    "vi_cat_animations":  {
+                              "message":  "الرسوم المتحركة"
+                          },
+    "vi_tool_dvd":  {
+                        "message":  "شاشة توقف DVD"
+                    },
+    "vi_tool_pipes":  {
+                          "message":  "شاشة توقف الأنابيب"
+                      },
+    "vi_tool_bsod":  {
+                         "message":  "شاشة الموت الزرقاء"
+                     },
+    "vi_tool_crack":  {
+                          "message":  "شاشة مكسورة"
+                      },
+    "vi_tool_fbi":  {
+                        "message":  "تحذير FBI"
+                    },
+    "vi_tool_virus":  {
+                          "message":  "خدعة فيروس وهمي"
+                      },
+    "vi_tool_cracked_desktop":  {
+                                    "message":  "سطح مكتب مكسور"
+                                },
+    "vi_tool_matrix":  {
+                           "message":  "مطر أكواد ماتريكس"
+                       },
+    "vi_tool_static":  {
+                           "message":  "تشويش تلفزيوني"
+                       },
+    "vi_cat_more":  {
+                        "message":  "المزيد..."
+                    },
+    "vi_tool_chat_ss":  {
+                            "message":  "لقطة شاشة للدردشة"
+                        },
+    "vi_tool_sounds":  {
+                           "message":  "تأثيرات صوتية"
+                       },
+    "vi_tool_maze":  {
+                         "message":  "متاهة الرعب"
+                     },
+    "vi_tool_minesweeper":  {
+                                "message":  "كنس الألغام"
+                            },
+    "vi_tool_tetris":  {
+                           "message":  "تتريس"
+                       },
+    "tt_tool_no_wm_desc":  {
+                               "message":  "حذف العلامة المائية تلقائياً عند تحميل فيديوهات تيك توك"
+                           },
+    "tt_tool_scroll_desc":  {
+                                "message":  "التمرير تلقائياً للفيديو التالي بعد الانتهاء"
+                            },
+    "ig_tool_block_seen":  {
+                               "message":  "إخفاء مشاهدة القصص"
+                           },
+    "ig_tool_block_seen_desc":  {
+                                    "message":  "شاهد قصص الآخرين دون علمهم"
+                                },
+    "ig_tool_download_story":  {
+                                   "message":  "زر تحميل القصص السريع"
+                               },
+    "ig_tool_download_story_desc":  {
+                                        "message":  "إظهار زر تحميل مباشرة على القصص"
+                                    },
+    "th_tool_block_seen":  {
+                               "message":  "إخفاء مشاهدة ثريدز"
+                           },
+    "th_tool_block_seen_desc":  {
+                                    "message":  "إخفاء حالة المشاهدة في منشورات ثريدز"
+                                },
+    "th_tool_hide_posts":  {
+                               "message":  "تنظيف الواجهة"
+                           },
+    "th_tool_hide_posts_desc":  {
+                                    "message":  "إخفاء المنشورات المقترحة والإعلانات"
+                                },
+    "quick_settings":  {
+                           "message":  "إعدادات سريعة"
+                       },
+    "extensionName":  {
+                          "message":  "Chromex",
+                          "description":  "Extension name shown in Chrome surfaces."
+                      },
+    "extensionDescription":  {
+                                 "message":  "مساعد متصفح يعمل بـ Codex لسياق الصفحة وعلامات التبويب والصوت وتحرير الصور.",
+                                 "description":  "Short extension description shown in Chrome and the Chrome Web Store."
+                             },
+    "actionOpenSidePanel":  {
+                                "message":  "فتح Chromex",
+                                "description":  "Tooltip for the browser action button."
+                            },
+    "commandOpenSidePanel":  {
+                                 "message":  "فتح Chromex",
+                                 "description":  "Keyboard shortcut description for opening the side panel."
+                             },
+    "commandOpenPopup":  {
+                             "message":  "فتح نافذة Chromex المنبثقة",
+                             "description":  "Keyboard shortcut description for opening the popup workspace."
+                         },
+    "commandStartDictation":  {
+                                  "message":  "Start or stop dictation",
+                                  "description":  "Chrome command description for voice dictation shortcut."
+                              },
+    "contextAskPage":  {
+                           "message":  "اسأل Chromex عن هذه الصفحة",
+                           "description":  "Context menu item for asking about the current page."
+                       },
+    "contextAskSelection":  {
+                                "message":  "Ask AI about selection",
+                                "description":  "Context menu item for asking about selected text."
+                            },
+    "contextEditImage":  {
+                             "message":  "حرّر هذه الصورة باستخدام Chromex",
+                             "description":  "Context menu item for editing an image with Chromex."
+                         },
+    "contextSummarizeYoutube":  {
+                                    "message":  "لخّص فيديو YouTube هذا",
+                                    "description":  "Context menu item for summarizing a YouTube video."
+                                }
+}

@@ -1,0 +1,630 @@
+{
+    "extension_name":  {
+                           "message":  "Social AIO"
+                       },
+    "extension_description":  {
+                                  "message":  "Facebook, Instagram, Threads, TikTok 用のオールインワンツールキット"
+                              },
+    "search_placeholder":  {
+                               "message":  "ツールを検索... (Facebook, TikTok, インスペクター...)"
+                           },
+    "go_premium":  {
+                       "message":  "プレミアムにアップグレード"
+                   },
+    "support":  {
+                    "message":  "サポート"
+                },
+    "edit_dock":  {
+                      "message":  "ドックを編集"
+                  },
+    "ai_summarize":  {
+                         "message":  "AI 要約"
+                     },
+    "facebook_tools":  {
+                           "message":  "Facebook ツール"
+                       },
+    "tiktok_tools":  {
+                         "message":  "TikTok ツール"
+                     },
+    "threads_tools":  {
+                          "message":  "Threads ツール"
+                      },
+    "instagram_tools":  {
+                            "message":  "Instagram ツール"
+                        },
+    "cross_platform":  {
+                           "message":  "マルチプラットフォーム"
+                       },
+    "code_category":  {
+                          "message":  "コード"
+                      },
+    "social_media_category":  {
+                                  "message":  "ソーシャルメディア"
+                              },
+    "website_category":  {
+                             "message":  "ウェブサイト"
+                         },
+    "security_privacy_category":  {
+                                      "message":  "セキュリティとプライバシー"
+                                  },
+    "inspector":  {
+                      "message":  "要素インスペクター"
+                  },
+    "analyzer":  {
+                     "message":  "アナライザー"
+                 },
+    "mover":  {
+                  "message":  "ムーバー"
+              },
+    "visual_editor":  {
+                          "message":  "ビジュアルエディター"
+                      },
+    "image_element":  {
+                          "message":  "画像要素"
+                      },
+    "meta_viewer":  {
+                        "message":  "Meta ビューアー"
+                    },
+    "link_extractor":  {
+                           "message":  "リンク抽出"
+                       },
+    "media_extractor":  {
+                            "message":  "メディア抽出"
+                        },
+    "open_graph":  {
+                       "message":  "Open Graph"
+                   },
+    "site_stack":  {
+                       "message":  "サイトスタック"
+                   },
+    "anti_phishing":  {
+                          "message":  "フィッシング対策"
+                      },
+    "block_pixel":  {
+                        "message":  "Facebook Pixel をブロック"
+                    },
+    "block_pixel_desc":  {
+                             "message":  "Facebook 追跡ピクセルをブロック"
+                         },
+    "block_seen_chat":  {
+                            "message":  "既読をブロック (チャット)"
+                        },
+    "block_seen_chat_desc":  {
+                                 "message":  "Facebook チャットで既読状態を非表示"
+                             },
+    "block_typing_chat":  {
+                              "message":  "入力中をブロック (チャット)"
+                          },
+    "block_typing_chat_desc":  {
+                                   "message":  "チャットで入力中インジケーターを非表示"
+                               },
+    "block_seen_story":  {
+                             "message":  "既読をブロック (ストーリー)"
+                         },
+    "block_seen_story_desc":  {
+                                  "message":  "Facebook ストーリーで既読状態を非表示"
+                              },
+    "stop_news_feed":  {
+                           "message":  "ニュースフィードを停止"
+                       },
+    "stop_news_feed_desc":  {
+                                "message":  "集中するために新しいフィードの読み込みを停止"
+                            },
+    "show_reactions":  {
+                           "message":  "詳細なリアクションを表示"
+                       },
+    "show_reactions_desc":  {
+                                "message":  "いいね/ハートの正確な数を確認"
+                            },
+    "fb_video_download":  {
+                              "message":  "クイックビデオダウンロードボタン"
+                          },
+    "fb_video_download_desc":  {
+                                   "message":  "ビデオにダウンロードボタンを表示"
+                               },
+    "show_timer":  {
+                       "message":  "使用タイマーを表示"
+                   },
+    "show_timer_desc":  {
+                            "message":  "Facebook で費やした時間を表示"
+                        },
+    "fb_timer_summary":  {
+                             "message":  "今日 Facebook で時間を費やしました。"
+                         },
+    "premium_title":  {
+                          "message":  "プロ"
+                      },
+    "premium_subtitle":  {
+                             "message":  "パワーユーザー向けの高度な機能"
+                         },
+    "premium_popular":  {
+                            "message":  "最も人気"
+                        },
+    "premium_price_period":  {
+                                 "message":  "/月"
+                             },
+    "premium_cta":  {
+                        "message":  "今すぐプレミアムを入手"
+                    },
+    "premium_feature_free":  {
+                                 "message":  "すべての無料機能を含む"
+                             },
+    "premium_feature_friends":  {
+                                    "message":  "友達を簡単に管理"
+                                },
+    "premium_feature_groups":  {
+                                   "message":  "管理中のグループを管理"
+                               },
+    "premium_feature_ai":  {
+                               "message":  "AI による投稿評価 (BYOK)"
+                           },
+    "premium_feature_comments":  {
+                                     "message":  "コメントスキャナー"
+                                 },
+    "premium_feature_requests":  {
+                                     "message":  "友達リクエスト管理"
+                                 },
+    "premium_feature_download":  {
+                                     "message":  "Facebook \u0026 Instagram ビデオをダウンロード"
+                                 },
+    "premium_feature_security":  {
+                                     "message":  "アカウントセキュリティダッシュボード"
+                                 },
+    "premium_feature_backup":  {
+                                   "message":  "バックアップツール (友達、グループ、ページをエクスポート)"
+                               },
+    "premium_feature_liked_pages":  {
+                                        "message":  "いいねしたページを管理"
+                                    },
+    "premium_feature_joined_groups":  {
+                                          "message":  "参加中のグループを管理"
+                                      },
+    "premium_feature_sent_requests":  {
+                                          "message":  "送信済みリクエスト管理"
+                                      },
+    "premium_feature_early_access":  {
+                                         "message":  "新機能への早期アクセス"
+                                     },
+    "fb_cat_features":  {
+                            "message":  "FACEBOOK 機能"
+                        },
+    "fb_tool_home":  {
+                         "message":  "ホーム"
+                     },
+    "fb_tool_security":  {
+                             "message":  "アカウントセキュリティ"
+                         },
+    "fb_tool_friends":  {
+                            "message":  "友達"
+                        },
+    "fb_tool_liked_pages":  {
+                                "message":  "いいねしたページ"
+                            },
+    "fb_tool_my_posts":  {
+                             "message":  "自分の投稿"
+                         },
+    "fb_tool_joined_groups":  {
+                                  "message":  "参加中のグループ"
+                              },
+    "fb_tool_group_settings":  {
+                                   "message":  "グループ管理"
+                               },
+    "fb_tool_following":  {
+                              "message":  "フォロー中"
+                          },
+    "fb_cat_management":  {
+                              "message":  "管理ツール"
+                          },
+    "fb_tool_backup":  {
+                           "message":  "バックアップツール"
+                       },
+    "fb_tool_ai_chat":  {
+                            "message":  "AI チャット"
+                        },
+    "fb_tool_video_download":  {
+                                   "message":  "ビデオダウンロード"
+                               },
+    "fb_tool_comment_scan":  {
+                                 "message":  "コメントスキャン"
+                             },
+    "fb_tool_block_list":  {
+                               "message":  "ブロックリスト管理"
+                           },
+    "fb_tool_bookmarks":  {
+                              "message":  "ブックマーク"
+                          },
+    "fb_tool_get_id":  {
+                           "message":  "Facebook ID を取得"
+                       },
+    "fb_tool_global_ban":  {
+                               "message":  "グローバルバン"
+                           },
+    "fb_cat_free":  {
+                        "message":  "無料ツール"
+                    },
+    "fb_tool_gmail_dot":  {
+                              "message":  "Gmail ドットトリック"
+                          },
+    "fb_tool_qr_gen":  {
+                           "message":  "QR コードジェネレーター"
+                       },
+    "fb_tool_my_ip":  {
+                          "message":  "自分の IP は？"
+                      },
+    "fb_tool_pass_gen":  {
+                             "message":  "パスワードジェネレーター"
+                         },
+    "fb_tool_screenshot_beauty":  {
+                                      "message":  "スクリーンショット美化"
+                                  },
+    "fb_tool_photo_booth":  {
+                                "message":  "フォトブース"
+                            },
+    "fb_tool_email_sig":  {
+                              "message":  "メール署名"
+                          },
+    "fb_tool_cv_gen":  {
+                           "message":  "履歴書作成"
+                       },
+    "fb_cat_utility":  {
+                           "message":  "ユーティリティツール"
+                       },
+    "fb_tool_typing_test":  {
+                                "message":  "タイピング速度テスト"
+                            },
+    "fb_tool_lucky_wheel":  {
+                                "message":  "ラッキーホイール"
+                            },
+    "fb_tool_bmi_calc":  {
+                             "message":  "BMI 計算機"
+                         },
+    "fb_tool_sleep_calc":  {
+                               "message":  "睡眠計算機"
+                           },
+    "fb_tool_currency_conv":  {
+                                  "message":  "通貨換算"
+                              },
+    "fb_tool_contrast_checker":  {
+                                     "message":  "コントラストチェック"
+                                 },
+    "fb_tool_palette_extract":  {
+                                    "message":  "パレット抽出"
+                                },
+    "fb_tool_date_calc":  {
+                              "message":  "日付計算"
+                          },
+    "fb_cat_code":  {
+                        "message":  "変換とコード"
+                    },
+    "fb_tool_percent_calc":  {
+                                 "message":  "パーセント計算"
+                             },
+    "fb_tool_pomodoro":  {
+                             "message":  "ポモドーロタイマー"
+                         },
+    "fb_tool_word_count":  {
+                               "message":  "ワードカウント"
+                           },
+    "fb_tool_csv_json":  {
+                             "message":  "CSV から JSON への変換"
+                         },
+    "fb_tool_aspect_ratio":  {
+                                 "message":  "アスペクト比計算機"
+                             },
+    "fb_tool_qr_reader":  {
+                              "message":  "QR コードリーダー"
+                          },
+    "fb_tool_random_gen":  {
+                               "message":  "乱数ジェネレーター"
+                           },
+    "fb_tool_color_conv":  {
+                               "message":  "カラー変換"
+                           },
+    "fb_cat_developer":  {
+                             "message":  "開発者ツール"
+                         },
+    "fb_tool_utm_gen":  {
+                            "message":  "キャンペーン URL 作成"
+                        },
+    "fb_tool_stopwatch":  {
+                              "message":  "ストップウォッチ"
+                          },
+    "fb_tool_fake_data":  {
+                              "message":  "フェイクデータ作成"
+                          },
+    "fb_tool_uuid_gen":  {
+                             "message":  "UUID 作成"
+                         },
+    "fb_tool_scrollbar_gen":  {
+                                  "message":  "スクロールバー設定"
+                              },
+    "fb_tool_js_obf":  {
+                           "message":  "JS 難読化"
+                       },
+    "fb_tool_crontab":  {
+                            "message":  "Crontab 解説"
+                        },
+    "fb_tool_js_beautify":  {
+                                "message":  "JS 整形"
+                            },
+    "fb_cat_text":  {
+                        "message":  "テキストとデータツール"
+                    },
+    "fb_tool_curl_code":  {
+                              "message":  "Curl からコードへ"
+                          },
+    "fb_tool_jwt":  {
+                        "message":  "JWT デバッガー"
+                    },
+    "fb_tool_json_editor":  {
+                                "message":  "JSON エディター"
+                            },
+    "fb_tool_meta_gen":  {
+                             "message":  "Meta タグ作成"
+                         },
+    "fb_tool_md_editor":  {
+                              "message":  "Markdown エディター"
+                          },
+    "fb_tool_text_diff":  {
+                              "message":  "テキスト比較"
+                          },
+    "fb_tool_base64":  {
+                           "message":  "Base64 変換"
+                       },
+    "fb_tool_url_enc":  {
+                            "message":  "URL エンコード/デコード"
+                        },
+    "fb_cat_conversion":  {
+                              "message":  "変換ツール"
+                          },
+    "fb_tool_unix_time":  {
+                              "message":  "Unix 時間変換"
+                          },
+    "fb_tool_hash":  {
+                         "message":  "ハッシュ化"
+                     },
+    "fb_tool_lorem":  {
+                          "message":  "Lorem Ipsum 作成"
+                      },
+    "fb_tool_img_resize":  {
+                               "message":  "画像リサイズ"
+                           },
+    "ig_cat_automation":  {
+                              "message":  "自動化"
+                          },
+    "ig_tool_auto_like":  {
+                              "message":  "フィード自動いいね"
+                          },
+    "ig_tool_unfollow":  {
+                             "message":  "フォローバックなしを解除"
+                         },
+    "ig_tool_quick_reply":  {
+                                "message":  "DM クイック返信"
+                            },
+    "ig_cat_content":  {
+                           "message":  "コンテンツとダウンロード"
+                       },
+    "ig_tool_story_dl":  {
+                             "message":  "ストーリーダウンロード"
+                         },
+    "ig_tool_post_dl":  {
+                            "message":  "投稿画像/ビデオ保存"
+                        },
+    "ig_tool_analytics":  {
+                              "message":  "プロフィール分析"
+                          },
+    "tt_cat_downloader":  {
+                              "message":  "ダウンローダー"
+                          },
+    "tt_tool_no_wm":  {
+                          "message":  "透かしなしダウンロード"
+                      },
+    "tt_tool_mp3":  {
+                        "message":  "MP3 保存"
+                    },
+    "tt_tool_batch":  {
+                          "message":  "プロフィール一括ダウンロード"
+                      },
+    "tt_cat_automation":  {
+                              "message":  "自動化"
+                          },
+    "tt_tool_scroll":  {
+                           "message":  "自動スクロール"
+                       },
+    "tt_tool_hashtag":  {
+                            "message":  "ハッシュタグ作成"
+                        },
+    "tt_tool_like":  {
+                         "message":  "クリップ自動いいね"
+                     },
+    "th_cat_moderation":  {
+                              "message":  "モデレーション"
+                          },
+    "th_tool_hide_cmts":  {
+                              "message":  "コメント一括非表示"
+                          },
+    "th_tool_cleanup":  {
+                            "message":  "UI クリーンアップ"
+                        },
+    "th_tool_antispam":  {
+                             "message":  "スパム対策フィルター"
+                         },
+    "th_cat_utility":  {
+                           "message":  "ユーティリティ"
+                       },
+    "th_tool_export":  {
+                           "message":  "Thread エクスポート"
+                       },
+    "th_tool_batch_dl":  {
+                             "message":  "メディア一括ダウンロード"
+                         },
+    "th_tool_search_opt":  {
+                               "message":  "検索最適化"
+                           },
+    "vi_cat_simulators":  {
+                              "message":  "シミュレーター"
+                          },
+    "vi_tool_hacker":  {
+                           "message":  "ハッカー"
+                       },
+    "vi_tool_bios":  {
+                         "message":  "Bios CMOS"
+                     },
+    "vi_tool_google_term":  {
+                                "message":  "Google ターミナル"
+                            },
+    "vi_tool_startup":  {
+                            "message":  "起動画面"
+                        },
+    "vi_tool_dos":  {
+                        "message":  "オンライン Dos"
+                    },
+    "vi_tool_norton":  {
+                           "message":  "Norton Commander"
+                       },
+    "vi_tool_winxp_sim":  {
+                              "message":  "Win XP シミュレーター"
+                          },
+    "vi_tool_jurassic_surv":  {
+                                  "message":  "ジュラシック監視"
+                              },
+    "vi_tool_jurassic_con":  {
+                                 "message":  "ジュラシックコンソール"
+                             },
+    "vi_cat_updates":  {
+                           "message":  "偽のアップデート"
+                       },
+    "vi_tool_apple":  {
+                          "message":  "Apple iOS"
+                      },
+    "vi_tool_win7":  {
+                         "message":  "Windows 7"
+                     },
+    "vi_tool_winxp":  {
+                          "message":  "Windows XP"
+                      },
+    "vi_tool_win10":  {
+                          "message":  "Windows 10"
+                      },
+    "vi_cat_animations":  {
+                              "message":  "アニメーション"
+                          },
+    "vi_tool_dvd":  {
+                        "message":  "DVD スクリーンセーバー"
+                    },
+    "vi_tool_pipes":  {
+                          "message":  "パイプスクリーンセーバー"
+                      },
+    "vi_tool_bsod":  {
+                         "message":  "ブルースクリーン"
+                     },
+    "vi_tool_crack":  {
+                          "message":  "画面割れ"
+                      },
+    "vi_tool_fbi":  {
+                        "message":  "FBI 警告"
+                    },
+    "vi_tool_virus":  {
+                          "message":  "偽ウイルスいたずら"
+                      },
+    "vi_tool_cracked_desktop":  {
+                                    "message":  "デスクトップ割れ"
+                                },
+    "vi_tool_matrix":  {
+                           "message":  "マトリックスコード"
+                       },
+    "vi_tool_static":  {
+                           "message":  "テレビノイズ"
+                       },
+    "vi_cat_more":  {
+                        "message":  "その他..."
+                    },
+    "vi_tool_chat_ss":  {
+                            "message":  "チャットスクリーンショット"
+                        },
+    "vi_tool_sounds":  {
+                           "message":  "効果音"
+                       },
+    "vi_tool_maze":  {
+                         "message":  "ホラー迷路"
+                     },
+    "vi_tool_minesweeper":  {
+                                "message":  "マインスイーパー"
+                            },
+    "vi_tool_tetris":  {
+                           "message":  "テトリス"
+                       },
+    "tt_tool_no_wm_desc":  {
+                               "message":  "TikTok ビデオをダウンロードする際に透かしを自動的に削除します"
+                           },
+    "tt_tool_scroll_desc":  {
+                                "message":  "再生終了後に自動的に次のビデオにスクロールします"
+                            },
+    "ig_tool_block_seen":  {
+                               "message":  "ストーリーの既読を非表示"
+                           },
+    "ig_tool_block_seen_desc":  {
+                                    "message":  "相手に知られずにストーリーを閲覧します"
+                                },
+    "ig_tool_download_story":  {
+                                   "message":  "ストーリークイックダウンロード"
+                               },
+    "ig_tool_download_story_desc":  {
+                                        "message":  "ストーリーにダウンロードボタンを表示します"
+                                    },
+    "th_tool_block_seen":  {
+                               "message":  "Threads の既読を非表示"
+                           },
+    "th_tool_block_seen_desc":  {
+                                    "message":  "Threads の投稿で既読状態を非表示にします"
+                                },
+    "th_tool_hide_posts":  {
+                               "message":  "UI クリーンアップ"
+                           },
+    "th_tool_hide_posts_desc":  {
+                                    "message":  "おすすめの投稿や広告を非表示にします"
+                                },
+    "quick_settings":  {
+                           "message":  "クイック設定"
+                       },
+    "extensionName":  {
+                          "message":  "Chromex",
+                          "description":  "Extension name shown in Chrome surfaces."
+                      },
+    "extensionDescription":  {
+                                 "message":  "ページのコンテキスト、タブ、音声、画像編集に対応した Codex 搭載ブラウザーアシスタント。",
+                                 "description":  "Short extension description shown in Chrome and the Chrome Web Store."
+                             },
+    "actionOpenSidePanel":  {
+                                "message":  "Chromex を開く",
+                                "description":  "Tooltip for the browser action button."
+                            },
+    "commandOpenSidePanel":  {
+                                 "message":  "Chromex を開く",
+                                 "description":  "Keyboard shortcut description for opening the side panel."
+                             },
+    "commandOpenPopup":  {
+                             "message":  "Chromex ポップアップを開く",
+                             "description":  "Keyboard shortcut description for opening the popup workspace."
+                         },
+    "commandStartDictation":  {
+                                  "message":  "ディクテーションを開始/停止",
+                                  "description":  "Chrome command description for voice dictation shortcut."
+                              },
+    "contextAskPage":  {
+                           "message":  "このページについて Chromex に質問",
+                           "description":  "Context menu item for asking about the current page."
+                       },
+    "contextAskSelection":  {
+                                "message":  "Ask AI about selection",
+                                "description":  "Context menu item for asking about selected text."
+                            },
+    "contextEditImage":  {
+                             "message":  "この画像を Chromex で編集",
+                             "description":  "Context menu item for editing an image with Chromex."
+                         },
+    "contextSummarizeYoutube":  {
+                                    "message":  "この YouTube 動画を要約",
+                                    "description":  "Context menu item for summarizing a YouTube video."
+                                }
+}

@@ -1,0 +1,630 @@
+{
+    "extension_name":  {
+                           "message":  "Social AIO"
+                       },
+    "extension_description":  {
+                                  "message":  "Facebook, Instagram, Threads, TikTok을 위한 올인원 도구 모음"
+                              },
+    "search_placeholder":  {
+                               "message":  "도구 검색... (Facebook, TikTok, 인스펙터...)"
+                           },
+    "go_premium":  {
+                       "message":  "프리미엄 업그레이드"
+                   },
+    "support":  {
+                    "message":  "지원"
+                },
+    "edit_dock":  {
+                      "message":  "독 편집"
+                  },
+    "ai_summarize":  {
+                         "message":  "AI 요약"
+                     },
+    "facebook_tools":  {
+                           "message":  "Facebook 도구"
+                       },
+    "tiktok_tools":  {
+                         "message":  "TikTok 도구"
+                     },
+    "threads_tools":  {
+                          "message":  "Threads 도구"
+                      },
+    "instagram_tools":  {
+                            "message":  "Instagram 도구"
+                        },
+    "cross_platform":  {
+                           "message":  "멀티 플랫폼"
+                       },
+    "code_category":  {
+                          "message":  "코드"
+                      },
+    "social_media_category":  {
+                                  "message":  "소셜 미디어"
+                              },
+    "website_category":  {
+                             "message":  "웹사이트"
+                         },
+    "security_privacy_category":  {
+                                      "message":  "보안 및 개인정보"
+                                  },
+    "inspector":  {
+                      "message":  "요소 인스펙터"
+                  },
+    "analyzer":  {
+                     "message":  "분석기"
+                 },
+    "mover":  {
+                  "message":  "무버"
+              },
+    "visual_editor":  {
+                          "message":  "비주얼 에디터"
+                      },
+    "image_element":  {
+                          "message":  "이미지 요소"
+                      },
+    "meta_viewer":  {
+                        "message":  "메타 뷰어"
+                    },
+    "link_extractor":  {
+                           "message":  "링크 추출"
+                       },
+    "media_extractor":  {
+                            "message":  "미디어 추출"
+                        },
+    "open_graph":  {
+                       "message":  "Open Graph"
+                   },
+    "site_stack":  {
+                       "message":  "사이트 스택"
+                   },
+    "anti_phishing":  {
+                          "message":  "피싱 방지"
+                      },
+    "block_pixel":  {
+                        "message":  "Facebook 픽셀 차단"
+                    },
+    "block_pixel_desc":  {
+                             "message":  "Facebook 추적 픽셀 차단"
+                         },
+    "block_seen_chat":  {
+                            "message":  "읽음 확인 차단 (채팅)"
+                        },
+    "block_seen_chat_desc":  {
+                                 "message":  "Facebook 채팅에서 읽음 상태 숨기기"
+                             },
+    "block_typing_chat":  {
+                              "message":  "입력 중 표시 차단 (채팅)"
+                          },
+    "block_typing_chat_desc":  {
+                                   "message":  "채팅에서 입력 중 표시 숨기기"
+                               },
+    "block_seen_story":  {
+                             "message":  "읽음 확인 차단 (스토리)"
+                         },
+    "block_seen_story_desc":  {
+                                  "message":  "Facebook 스토리에서 읽음 상태 숨기기"
+                              },
+    "stop_news_feed":  {
+                           "message":  "뉴스피드 중단"
+                       },
+    "stop_news_feed_desc":  {
+                                "message":  "집중을 위해 새로운 피드 로딩 중단"
+                            },
+    "show_reactions":  {
+                           "message":  "상세 리액션 표시"
+                       },
+    "show_reactions_desc":  {
+                                "message":  "좋아요/하트의 정확한 개수 확인"
+                            },
+    "fb_video_download":  {
+                              "message":  "빠른 비디오 다운로드 버튼"
+                          },
+    "fb_video_download_desc":  {
+                                   "message":  "비디오에 다운로드 버튼 표시"
+                               },
+    "show_timer":  {
+                       "message":  "사용 시간 타이머 표시"
+                   },
+    "show_timer_desc":  {
+                            "message":  "Facebook 사용 시간 표시"
+                        },
+    "fb_timer_summary":  {
+                             "message":  "오늘 Facebook에서 시간을 보냈습니다."
+                         },
+    "premium_title":  {
+                          "message":  "프로"
+                      },
+    "premium_subtitle":  {
+                             "message":  "파워 유저를 위한 고급 기능"
+                         },
+    "premium_popular":  {
+                            "message":  "가장 인기"
+                        },
+    "premium_price_period":  {
+                                 "message":  "/월"
+                             },
+    "premium_cta":  {
+                        "message":  "지금 프리미엄 구매"
+                    },
+    "premium_feature_free":  {
+                                 "message":  "무료 버전의 모든 기능 포함"
+                             },
+    "premium_feature_friends":  {
+                                    "message":  "친구를 쉽게 관리"
+                                },
+    "premium_feature_groups":  {
+                                   "message":  "관리 중인 그룹 관리"
+                               },
+    "premium_feature_ai":  {
+                               "message":  "AI 게시물 평가 (BYOK)"
+                           },
+    "premium_feature_comments":  {
+                                     "message":  "댓글 스캐너"
+                                 },
+    "premium_feature_requests":  {
+                                     "message":  "친구 요청 관리"
+                                 },
+    "premium_feature_download":  {
+                                     "message":  "Facebook 및 Instagram 비디오 다운로드"
+                                 },
+    "premium_feature_security":  {
+                                     "message":  "계정 보안 대시보드"
+                                 },
+    "premium_feature_backup":  {
+                                   "message":  "백업 도구 (친구, 그룹, 페이지 내보내기)"
+                               },
+    "premium_feature_liked_pages":  {
+                                        "message":  "좋아요한 페이지 관리"
+                                    },
+    "premium_feature_joined_groups":  {
+                                          "message":  "가입한 그룹 관리"
+                                      },
+    "premium_feature_sent_requests":  {
+                                          "message":  "보낸 요청 관리"
+                                      },
+    "premium_feature_early_access":  {
+                                         "message":  "신기능 우선 체험"
+                                     },
+    "fb_cat_features":  {
+                            "message":  "FACEBOOK 기능"
+                        },
+    "fb_tool_home":  {
+                         "message":  "홈"
+                     },
+    "fb_tool_security":  {
+                             "message":  "계정 보안"
+                         },
+    "fb_tool_friends":  {
+                            "message":  "친구"
+                        },
+    "fb_tool_liked_pages":  {
+                                "message":  "좋아요한 페이지"
+                            },
+    "fb_tool_my_posts":  {
+                             "message":  "내 게시물"
+                         },
+    "fb_tool_joined_groups":  {
+                                  "message":  "가입한 그룹"
+                              },
+    "fb_tool_group_settings":  {
+                                   "message":  "그룹 관리"
+                               },
+    "fb_tool_following":  {
+                              "message":  "팔로잉"
+                          },
+    "fb_cat_management":  {
+                              "message":  "관리 도구"
+                          },
+    "fb_tool_backup":  {
+                           "message":  "백업 도구"
+                       },
+    "fb_tool_ai_chat":  {
+                            "message":  "AI 채팅"
+                        },
+    "fb_tool_video_download":  {
+                                   "message":  "비디오 다운로드"
+                               },
+    "fb_tool_comment_scan":  {
+                                 "message":  "댓글 스캔"
+                             },
+    "fb_tool_block_list":  {
+                               "message":  "차단 목록 관리"
+                           },
+    "fb_tool_bookmarks":  {
+                              "message":  "북마크"
+                          },
+    "fb_tool_get_id":  {
+                           "message":  "Facebook ID 확인"
+                       },
+    "fb_tool_global_ban":  {
+                               "message":  "글로벌 밴"
+                           },
+    "fb_cat_free":  {
+                        "message":  "무료 도구"
+                    },
+    "fb_tool_gmail_dot":  {
+                              "message":  "Gmail 도트 트릭"
+                          },
+    "fb_tool_qr_gen":  {
+                           "message":  "QR 코드 생성기"
+                       },
+    "fb_tool_my_ip":  {
+                          "message":  "내 IP는?"
+                      },
+    "fb_tool_pass_gen":  {
+                             "message":  "비밀번호 생성기"
+                         },
+    "fb_tool_screenshot_beauty":  {
+                                      "message":  "스크린샷 미화"
+                                  },
+    "fb_tool_photo_booth":  {
+                                "message":  "포토부스"
+                            },
+    "fb_tool_email_sig":  {
+                              "message":  "이메일 서명"
+                          },
+    "fb_tool_cv_gen":  {
+                           "message":  "이력서 생성기"
+                       },
+    "fb_cat_utility":  {
+                           "message":  "유틸리티 도구"
+                       },
+    "fb_tool_typing_test":  {
+                                "message":  "타이핑 속도 테스트"
+                            },
+    "fb_tool_lucky_wheel":  {
+                                "message":  "행운의 바퀴"
+                            },
+    "fb_tool_bmi_calc":  {
+                             "message":  "BMI 계산기"
+                         },
+    "fb_tool_sleep_calc":  {
+                               "message":  "수면 계산기"
+                           },
+    "fb_tool_currency_conv":  {
+                                  "message":  "환율 계산기"
+                              },
+    "fb_tool_contrast_checker":  {
+                                     "message":  "대비 체크"
+                                 },
+    "fb_tool_palette_extract":  {
+                                    "message":  "팔레트 추출"
+                                },
+    "fb_tool_date_calc":  {
+                              "message":  "날짜 계산"
+                          },
+    "fb_cat_code":  {
+                        "message":  "변환 및 코드"
+                    },
+    "fb_tool_percent_calc":  {
+                                 "message":  "퍼센트 계산"
+                             },
+    "fb_tool_pomodoro":  {
+                             "message":  "뽀모도로 타이머"
+                         },
+    "fb_tool_word_count":  {
+                               "message":  "글자 수 세기"
+                           },
+    "fb_tool_csv_json":  {
+                             "message":  "CSV를 JSON으로"
+                         },
+    "fb_tool_aspect_ratio":  {
+                                 "message":  "화면비 계산기"
+                             },
+    "fb_tool_qr_reader":  {
+                              "message":  "QR 코드 리더"
+                          },
+    "fb_tool_random_gen":  {
+                               "message":  "랜덤 숫자 생성기"
+                           },
+    "fb_tool_color_conv":  {
+                               "message":  "색상 변환"
+                           },
+    "fb_cat_developer":  {
+                             "message":  "개발자 도구"
+                         },
+    "fb_tool_utm_gen":  {
+                            "message":  "캠페인 URL 생성기"
+                        },
+    "fb_tool_stopwatch":  {
+                              "message":  "스톱워치"
+                          },
+    "fb_tool_fake_data":  {
+                              "message":  "가짜 데이터 생성기"
+                          },
+    "fb_tool_uuid_gen":  {
+                             "message":  "UUID 생성기"
+                         },
+    "fb_tool_scrollbar_gen":  {
+                                  "message":  "스크롤바 사용자 정의"
+                              },
+    "fb_tool_js_obf":  {
+                           "message":  "JS 난독화"
+                       },
+    "fb_tool_crontab":  {
+                            "message":  "Crontab 설명"
+                        },
+    "fb_tool_js_beautify":  {
+                                "message":  "JS 정리"
+                            },
+    "fb_cat_text":  {
+                        "message":  "텍스트 및 데이터 도구"
+                    },
+    "fb_tool_curl_code":  {
+                              "message":  "Curl을 코드로"
+                          },
+    "fb_tool_jwt":  {
+                        "message":  "JWT 디버거"
+                    },
+    "fb_tool_json_editor":  {
+                                "message":  "JSON 에디터"
+                            },
+    "fb_tool_meta_gen":  {
+                             "message":  "메타 태그 생성기"
+                         },
+    "fb_tool_md_editor":  {
+                              "message":  "마크다운 에디터"
+                          },
+    "fb_tool_text_diff":  {
+                              "message":  "텍스트 비교"
+                          },
+    "fb_tool_base64":  {
+                           "message":  "Base64 변환"
+                       },
+    "fb_tool_url_enc":  {
+                            "message":  "URL 인코딩/디코딩"
+                        },
+    "fb_cat_conversion":  {
+                              "message":  "변환 도구"
+                          },
+    "fb_tool_unix_time":  {
+                              "message":  "Unix 시간 변환"
+                          },
+    "fb_tool_hash":  {
+                         "message":  "텍스트 해시"
+                     },
+    "fb_tool_lorem":  {
+                          "message":  "로렘 입숨 생성"
+                      },
+    "fb_tool_img_resize":  {
+                               "message":  "이미지 크기 조절"
+                           },
+    "ig_cat_automation":  {
+                              "message":  "자동화"
+                          },
+    "ig_tool_auto_like":  {
+                              "message":  "피드 자동 좋아요"
+                          },
+    "ig_tool_unfollow":  {
+                             "message":  "맞팔하지 않은 사람 언팔로우"
+                         },
+    "ig_tool_quick_reply":  {
+                                "message":  "DM 빠른 답장"
+                            },
+    "ig_cat_content":  {
+                           "message":  "콘텐츠 및 다운로드"
+                       },
+    "ig_tool_story_dl":  {
+                             "message":  "스토리 다운로더"
+                         },
+    "ig_tool_post_dl":  {
+                            "message":  "게시물 사진/비디오 저장"
+                        },
+    "ig_tool_analytics":  {
+                              "message":  "프로필 분석"
+                          },
+    "tt_cat_downloader":  {
+                              "message":  "다운로더"
+                          },
+    "tt_tool_no_wm":  {
+                          "message":  "워터마크 없는 다운로드"
+                      },
+    "tt_tool_mp3":  {
+                        "message":  "MP3 오디오 저장"
+                    },
+    "tt_tool_batch":  {
+                          "message":  "프로필 일괄 다운로드"
+                      },
+    "tt_cat_automation":  {
+                              "message":  "자동화"
+                          },
+    "tt_tool_scroll":  {
+                           "message":  "자동 스크롤"
+                       },
+    "tt_tool_hashtag":  {
+                            "message":  "해시태그 생성기"
+                        },
+    "tt_tool_like":  {
+                         "message":  "클립 자동 좋아요"
+                     },
+    "th_cat_moderation":  {
+                              "message":  "중재"
+                          },
+    "th_tool_hide_cmts":  {
+                              "message":  "댓글 일괄 숨기기"
+                          },
+    "th_tool_cleanup":  {
+                            "message":  "UI 정리"
+                        },
+    "th_tool_antispam":  {
+                             "message":  "스팸 방지 필터"
+                         },
+    "th_cat_utility":  {
+                           "message":  "유틸리티"
+                       },
+    "th_tool_export":  {
+                           "message":  "Thread 내보내기"
+                       },
+    "th_tool_batch_dl":  {
+                             "message":  "미디어 일괄 다운로드"
+                         },
+    "th_tool_search_opt":  {
+                               "message":  "검색 최적화"
+                           },
+    "vi_cat_simulators":  {
+                              "message":  "시뮬레이터"
+                          },
+    "vi_tool_hacker":  {
+                           "message":  "해커"
+                       },
+    "vi_tool_bios":  {
+                         "message":  "Bios CMOS"
+                     },
+    "vi_tool_google_term":  {
+                                "message":  "Google 터미널"
+                            },
+    "vi_tool_startup":  {
+                            "message":  "부팅 화면"
+                        },
+    "vi_tool_dos":  {
+                        "message":  "온라인 Dos"
+                    },
+    "vi_tool_norton":  {
+                           "message":  "Norton Commander"
+                       },
+    "vi_tool_winxp_sim":  {
+                              "message":  "Win XP 시뮬레이터"
+                          },
+    "vi_tool_jurassic_surv":  {
+                                  "message":  "쥬라기 감시"
+                              },
+    "vi_tool_jurassic_con":  {
+                                 "message":  "쥬라기 콘솔"
+                             },
+    "vi_cat_updates":  {
+                           "message":  "가짜 업데이트"
+                       },
+    "vi_tool_apple":  {
+                          "message":  "Apple iOS"
+                      },
+    "vi_tool_win7":  {
+                         "message":  "Windows 7"
+                     },
+    "vi_tool_winxp":  {
+                          "message":  "Windows XP"
+                      },
+    "vi_tool_win10":  {
+                          "message":  "Windows 10"
+                      },
+    "vi_cat_animations":  {
+                              "message":  "애니메이션"
+                          },
+    "vi_tool_dvd":  {
+                        "message":  "DVD 스크린세이버"
+                    },
+    "vi_tool_pipes":  {
+                          "message":  "파이프 스크린세이버"
+                      },
+    "vi_tool_bsod":  {
+                         "message":  "블루스크린"
+                     },
+    "vi_tool_crack":  {
+                          "message":  "화면 깨짐"
+                      },
+    "vi_tool_fbi":  {
+                        "message":  "FBI 경고"
+                    },
+    "vi_tool_virus":  {
+                          "message":  "가짜 바이러스 장난"
+                      },
+    "vi_tool_cracked_desktop":  {
+                                    "message":  "데스크탑 깨짐"
+                                },
+    "vi_tool_matrix":  {
+                           "message":  "매트릭스 코드"
+                       },
+    "vi_tool_static":  {
+                           "message":  "TV 노이즈"
+                       },
+    "vi_cat_more":  {
+                        "message":  "더 보기..."
+                    },
+    "vi_tool_chat_ss":  {
+                            "message":  "채팅 스크린샷"
+                        },
+    "vi_tool_sounds":  {
+                           "message":  "음향 효과"
+                       },
+    "vi_tool_maze":  {
+                         "message":  "공포의 미로"
+                     },
+    "vi_tool_minesweeper":  {
+                                "message":  "지뢰찾기"
+                            },
+    "vi_tool_tetris":  {
+                           "message":  "테트리스"
+                       },
+    "tt_tool_no_wm_desc":  {
+                               "message":  "TikTok 비디오 다운로드 시 워터마크 자동 제거"
+                           },
+    "tt_tool_scroll_desc":  {
+                                "message":  "재생 종료 후 자동으로 다음 비디오로 스크롤"
+                            },
+    "ig_tool_block_seen":  {
+                               "message":  "스토리 읽음 숨기기"
+                           },
+    "ig_tool_block_seen_desc":  {
+                                    "message":  "상대방 모르게 스토리 보기"
+                                },
+    "ig_tool_download_story":  {
+                                   "message":  "스토리 빠른 다운로드"
+                               },
+    "ig_tool_download_story_desc":  {
+                                        "message":  "스토리에 다운로드 버튼 바로 표시"
+                                    },
+    "th_tool_block_seen":  {
+                               "message":  "Threads 읽음 숨기기"
+                           },
+    "th_tool_block_seen_desc":  {
+                                    "message":  "Threads 게시물에서 읽음 상태 숨기기"
+                                },
+    "th_tool_hide_posts":  {
+                               "message":  "UI 정리"
+                           },
+    "th_tool_hide_posts_desc":  {
+                                    "message":  "추천 게시물 및 광고 숨기기"
+                                },
+    "quick_settings":  {
+                           "message":  "빠른 설정"
+                       },
+    "extensionName":  {
+                          "message":  "Chromex",
+                          "description":  "Extension name shown in Chrome surfaces."
+                      },
+    "extensionDescription":  {
+                                 "message":  "페이지 컨텍스트, 탭, 음성, 이미지 편집을 지원하는 Codex 기반 브라우저 어시스턴트입니다.",
+                                 "description":  "Short extension description shown in Chrome and the Chrome Web Store."
+                             },
+    "actionOpenSidePanel":  {
+                                "message":  "Chromex 열기",
+                                "description":  "Tooltip for the browser action button."
+                            },
+    "commandOpenSidePanel":  {
+                                 "message":  "Chromex 열기",
+                                 "description":  "Keyboard shortcut description for opening the side panel."
+                             },
+    "commandOpenPopup":  {
+                             "message":  "Chromex 팝업 열기",
+                             "description":  "Keyboard shortcut description for opening the popup workspace."
+                         },
+    "commandStartDictation":  {
+                                  "message":  "받아쓰기 시작/중지",
+                                  "description":  "Chrome command description for voice dictation shortcut."
+                              },
+    "contextAskPage":  {
+                           "message":  "이 페이지를 Chromex에 물어보기",
+                           "description":  "Context menu item for asking about the current page."
+                       },
+    "contextAskSelection":  {
+                                "message":  "AI에게 질문하기",
+                                "description":  "Context menu item for asking about selected text."
+                            },
+    "contextEditImage":  {
+                             "message":  "이 이미지를 Chromex로 편집하기",
+                             "description":  "Context menu item for editing an image with Chromex."
+                         },
+    "contextSummarizeYoutube":  {
+                                    "message":  "이 YouTube 영상을 요약하기",
+                                    "description":  "Context menu item for summarizing a YouTube video."
+                                }
+}

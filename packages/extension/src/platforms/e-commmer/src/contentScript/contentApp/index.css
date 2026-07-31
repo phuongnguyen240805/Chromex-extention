@@ -1,0 +1,66 @@
+#sx-root {
+  position: relative;
+  z-index: 999;
+}
+
+#sx-root.kiotviet {
+  z-index: 99999 !important;
+}
+
+#sx-root .root-content {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  max-width: 500px;
+}
+
+#sx-root .root-content .content {
+  background-color: white;
+  margin-top: 4px;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+#sx-root .ant-form.no-margin .ant-form-item {
+  margin-bottom: 0 !important;
+}
+
+.ant-popover-content {
+  max-width: 400px;
+}
+
+.ant-btn-color-default.ant-btn-variant-filled {
+  background: rgb(255 255 255 / 41%);
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.money {
+  color: #07591e !important;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.ant-modal {
+  top: 80px !important;
+}
+
+.ant-checkbox .ant-checkbox-inner {
+  border-color: #555555 !important;
+}
+
+.ant-steps-item-description {
+  max-width: unset !important;
+}

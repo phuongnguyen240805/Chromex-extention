@@ -1,0 +1,39 @@
+{
+  "name": "chromex",
+  "version": "0.1.7",
+  "private": true,
+  "license": "MIT",
+  "author": "GenexisAI CHOI",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @codex-sidepanel/extension dev",
+    "build": "pnpm --filter @codex-sidepanel/shared build && pnpm --filter @codex-sidepanel/bridge build && pnpm --filter @codex-sidepanel/native-host build && pnpm --filter @codex-sidepanel/extension build",
+    "build:extension": "pnpm --filter @codex-sidepanel/extension build",
+    "build:esbuild": "pnpm --filter @codex-sidepanel/extension build:esbuild",
+    "test": "pnpm -r run test",
+    "typecheck": "pnpm -r run typecheck",
+    "lint": "pnpm -r run lint",
+    "i18n:generate": "node scripts/generate-extension-locales.mjs",
+    "i18n:generate:sidepanel": "node scripts/generate-sidepanel-i18n-translations.mjs",
+    "smoke": "node scripts/smoke-extension.mjs",
+    "smoke:install-browser": "npx -y playwright@1.59.1 install chromium",
+    "diagnose:extension": "node scripts/diagnose-extension-load.mjs",
+    "sync:extension": "pnpm build && node scripts/diagnose-extension-load.mjs --sync",
+    "package:webstore": "pnpm --filter @codex-sidepanel/extension build && node scripts/package-chrome-web-store.mjs",
+    "package:local-bridge": "pnpm --filter @codex-sidepanel/shared build && pnpm --filter @codex-sidepanel/bridge build && pnpm --filter @codex-sidepanel/native-host build && node scripts/package-local-bridge.mjs",
+    "package:public": "pnpm build && node scripts/package-public-release.mjs && node scripts/package-local-bridge.mjs",
+    "store:assets": "node scripts/generate-webstore-assets.mjs",
+    "release:audit": "node scripts/release-audit.mjs",
+    "release:audit:history": "node scripts/audit-git-history.mjs",
+    "audit": "pnpm audit --audit-level=high"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.30",
+    "@types/node": "^24.6.0",
+    "esbuild": "^0.25.4",
+    "jszip": "^3.10.1",
+    "playwright-core": "^1.59.1",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}

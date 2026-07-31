@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --wsk-primary: #6366f1;
+  --wsk-bg: #0f172a;
+  --wsk-surface: #1e293b;
+  --wsk-text: #f8fafc;
+  --wsk-border: rgba(255, 255, 255, 0.1);
+}
+
+.dark {
+  --bg-main: 13, 17, 23;      /* #0d1117 */
+  --bg-card: 22, 27, 34;      /* #161b22 */
+  --bg-card-hover: 28, 33, 40; /* #1c2128 */
+  --text-main: 240, 246, 252; /* #f0f6fc */
+  --text-muted: 139, 148, 158; /* #8b949e */
+  --border-main: 255, 255, 255;
+  --border-opacity: 0.05;
+}
+
+.light {
+  --bg-main: 255, 255, 255;   /* #ffffff */
+  --bg-card: 246, 248, 250;   /* #f6f8fa */
+  --bg-card-hover: 243, 244, 246; /* #f3f4f6 */
+  --text-main: 31, 35, 40;    /* #1f2328 */
+  --text-muted: 101, 109, 118; /* #656d76 */
+  --border-main: 0, 0, 0;
+  --border-opacity: 0.1;
+}
+
+.wsk-root {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--wsk-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tiêu đề */
+.wsk-root h1, .wsk-root h2, .wsk-root h3, .wsk-root h4, .wsk-root h5, .wsk-root h6 {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-weight: 600;
+}
+
+.wsk-root h1 { font-size: 13px; }
+.wsk-root h2 { font-size: 13px; }
+.wsk-root h3 { font-size: 13px; }
+.wsk-root h4 { font-size: 13px; }
+.wsk-root h5 { font-size: 13px; }
+.wsk-root h6 { font-size: 13px; }
+
+/* Text mặc định */
+.wsk-root p, .wsk-root span, .wsk-root div, .wsk-root button, .wsk-root label, .wsk-root a {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-weight: 600;
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--wsk-border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Tooltip Styles */
+.wsk-tooltip-el {
+  position: fixed;
+  z-index: 9999;
+  background: rgba(15, 23, 42, 0.9);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  pointer-events: none;
+  border: 1px solid var(--wsk-border);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.2s, transform 0.2s;
+  display: none;
+}
+
+.wsk-tooltip-el.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Premium Animations */
+@keyframes gradient-x {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes slide-up {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 6s linear infinite;
+}
+
+.animate-in {
+  animation: slide-up 0.4s ease-out forwards;
+}
+
+.premium-gradient {
+  background: linear-gradient(90deg, #6366f1, #a855f7, #ec4899, #6366f1);
+  background-size: 200% auto;
+  animation: gradient-x 4s linear infinite;
+}
+/* Ultra thin scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 2px; /* siêu mỏng */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 999px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5);
+  transform: scaleX(1.5); /* hover dày lên chút cho dễ kéo */
+}
+
+/* Dark mode */
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* Firefox support */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.3) transparent;
+}

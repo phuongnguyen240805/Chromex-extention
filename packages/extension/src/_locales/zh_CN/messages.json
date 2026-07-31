@@ -1,0 +1,630 @@
+{
+    "extension_name":  {
+                           "message":  "Social AIO"
+                       },
+    "extension_description":  {
+                                  "message":  "Facebook, Instagram, Threads, TikTok 的全能工具箱"
+                              },
+    "search_placeholder":  {
+                               "message":  "搜索工具... (Facebook, TikTok, 检查器...)"
+                           },
+    "go_premium":  {
+                       "message":  "升级高级版"
+                   },
+    "support":  {
+                    "message":  "支持"
+                },
+    "edit_dock":  {
+                      "message":  "编辑快捷栏"
+                  },
+    "ai_summarize":  {
+                         "message":  "AI 总结"
+                     },
+    "facebook_tools":  {
+                           "message":  "Facebook 工具"
+                       },
+    "tiktok_tools":  {
+                         "message":  "TikTok 工具"
+                     },
+    "threads_tools":  {
+                          "message":  "Threads 工具"
+                      },
+    "instagram_tools":  {
+                            "message":  "Instagram 工具"
+                        },
+    "cross_platform":  {
+                           "message":  "跨平台"
+                       },
+    "code_category":  {
+                          "message":  "代码"
+                      },
+    "social_media_category":  {
+                                  "message":  "社交媒体"
+                              },
+    "website_category":  {
+                             "message":  "网站"
+                         },
+    "security_privacy_category":  {
+                                      "message":  "安全与隐私"
+                                  },
+    "inspector":  {
+                      "message":  "元素检查器"
+                  },
+    "analyzer":  {
+                     "message":  "分析器"
+                 },
+    "mover":  {
+                  "message":  "移动器"
+              },
+    "visual_editor":  {
+                          "message":  "可视化编辑器"
+                      },
+    "image_element":  {
+                          "message":  "图片元素"
+                      },
+    "meta_viewer":  {
+                        "message":  "Meta 查看器"
+                    },
+    "link_extractor":  {
+                           "message":  "链接提取"
+                       },
+    "media_extractor":  {
+                            "message":  "媒体提取"
+                        },
+    "open_graph":  {
+                       "message":  "Open Graph"
+                   },
+    "site_stack":  {
+                       "message":  "网站技术栈"
+                   },
+    "anti_phishing":  {
+                          "message":  "防钓鱼保护"
+                      },
+    "block_pixel":  {
+                        "message":  "拦截 Facebook Pixel"
+                    },
+    "block_pixel_desc":  {
+                             "message":  "拦截 Facebook 追踪像素"
+                         },
+    "block_seen_chat":  {
+                            "message":  "拦截已读 (聊天)"
+                        },
+    "block_seen_chat_desc":  {
+                                 "message":  "在 Facebook 聊天中隐藏已读状态"
+                             },
+    "block_typing_chat":  {
+                              "message":  "拦截正在输入 (聊天)"
+                          },
+    "block_typing_chat_desc":  {
+                                   "message":  "在聊天中隐藏正在输入状态"
+                               },
+    "block_seen_story":  {
+                             "message":  "拦截已读 (快拍)"
+                         },
+    "block_seen_story_desc":  {
+                                  "message":  "在 Facebook 快拍中隐藏已读状态"
+                              },
+    "stop_news_feed":  {
+                           "message":  "停止动态消息"
+                       },
+    "stop_news_feed_desc":  {
+                                "message":  "停止加载新动态以保持专注"
+                            },
+    "show_reactions":  {
+                           "message":  "显示详细反应"
+                       },
+    "show_reactions_desc":  {
+                                "message":  "查看点赞/爱心的精确数量"
+                            },
+    "fb_video_download":  {
+                              "message":  "快速视频下载按钮"
+                          },
+    "fb_video_download_desc":  {
+                                   "message":  "在视频上显示下载按钮"
+                               },
+    "show_timer":  {
+                       "message":  "显示使用计时器"
+                   },
+    "show_timer_desc":  {
+                            "message":  "显示在 Facebook 上花费的时间"
+                        },
+    "fb_timer_summary":  {
+                             "message":  "你今天在 Facebook 上花费了时间。"
+                         },
+    "premium_title":  {
+                          "message":  "专业版"
+                      },
+    "premium_subtitle":  {
+                             "message":  "高级用户的进阶功能"
+                         },
+    "premium_popular":  {
+                            "message":  "最受欢迎"
+                        },
+    "premium_price_period":  {
+                                 "message":  "/月"
+                             },
+    "premium_cta":  {
+                        "message":  "立即获取高级版"
+                    },
+    "premium_feature_free":  {
+                                 "message":  "包含所有免费功能"
+                             },
+    "premium_feature_friends":  {
+                                    "message":  "轻松管理好友"
+                                },
+    "premium_feature_groups":  {
+                                   "message":  "管理你管理的小组"
+                               },
+    "premium_feature_ai":  {
+                               "message":  "AI 帖子评估 (BYOK)"
+                           },
+    "premium_feature_comments":  {
+                                     "message":  "评论扫描器"
+                                 },
+    "premium_feature_requests":  {
+                                     "message":  "好友请求管理"
+                                 },
+    "premium_feature_download":  {
+                                     "message":  "下载 Facebook 和 Instagram 视频"
+                                 },
+    "premium_feature_security":  {
+                                     "message":  "账户安全控制台"
+                                 },
+    "premium_feature_backup":  {
+                                   "message":  "备份工具 (导出好友、小组、主页)"
+                               },
+    "premium_feature_liked_pages":  {
+                                        "message":  "管理已点赞的主页"
+                                    },
+    "premium_feature_joined_groups":  {
+                                          "message":  "管理已加入的小组"
+                                      },
+    "premium_feature_sent_requests":  {
+                                          "message":  "管理已发送的请求"
+                                      },
+    "premium_feature_early_access":  {
+                                         "message":  "优先体验新功能"
+                                     },
+    "fb_cat_features":  {
+                            "message":  "FACEBOOK 功能"
+                        },
+    "fb_tool_home":  {
+                         "message":  "首页"
+                     },
+    "fb_tool_security":  {
+                             "message":  "账户安全"
+                         },
+    "fb_tool_friends":  {
+                            "message":  "好友"
+                        },
+    "fb_tool_liked_pages":  {
+                                "message":  "点赞的主页"
+                            },
+    "fb_tool_my_posts":  {
+                             "message":  "我的帖子"
+                         },
+    "fb_tool_joined_groups":  {
+                                  "message":  "加入的小组"
+                              },
+    "fb_tool_group_settings":  {
+                                   "message":  "小组管理"
+                               },
+    "fb_tool_following":  {
+                              "message":  "正在关注"
+                          },
+    "fb_cat_management":  {
+                              "message":  "管理工具"
+                          },
+    "fb_tool_backup":  {
+                           "message":  "备份工具"
+                       },
+    "fb_tool_ai_chat":  {
+                            "message":  "AI 聊天"
+                        },
+    "fb_tool_video_download":  {
+                                   "message":  "视频下载"
+                               },
+    "fb_tool_comment_scan":  {
+                                 "message":  "评论扫描"
+                             },
+    "fb_tool_block_list":  {
+                               "message":  "黑名单管理"
+                           },
+    "fb_tool_bookmarks":  {
+                              "message":  "书签"
+                          },
+    "fb_tool_get_id":  {
+                           "message":  "获取 Facebook ID"
+                       },
+    "fb_tool_global_ban":  {
+                               "message":  "全局封禁"
+                           },
+    "fb_cat_free":  {
+                        "message":  "免费工具"
+                    },
+    "fb_tool_gmail_dot":  {
+                              "message":  "Gmail 点号技巧"
+                          },
+    "fb_tool_qr_gen":  {
+                           "message":  "二维码生成器"
+                       },
+    "fb_tool_my_ip":  {
+                          "message":  "我的 IP 是什么？"
+                      },
+    "fb_tool_pass_gen":  {
+                             "message":  "密码生成器"
+                         },
+    "fb_tool_screenshot_beauty":  {
+                                      "message":  "截图美化"
+                                  },
+    "fb_tool_photo_booth":  {
+                                "message":  "照相亭"
+                            },
+    "fb_tool_email_sig":  {
+                              "message":  "邮件签名"
+                          },
+    "fb_tool_cv_gen":  {
+                           "message":  "简历生成器"
+                       },
+    "fb_cat_utility":  {
+                           "message":  "实用工具"
+                       },
+    "fb_tool_typing_test":  {
+                                "message":  "打字速度测试"
+                            },
+    "fb_tool_lucky_wheel":  {
+                                "message":  "幸运大转盘"
+                            },
+    "fb_tool_bmi_calc":  {
+                             "message":  "BMI 计算器"
+                         },
+    "fb_tool_sleep_calc":  {
+                               "message":  "睡眠计算器"
+                           },
+    "fb_tool_currency_conv":  {
+                                  "message":  "货币转换器"
+                              },
+    "fb_tool_contrast_checker":  {
+                                     "message":  "对比度检查"
+                                 },
+    "fb_tool_palette_extract":  {
+                                    "message":  "色板提取"
+                                },
+    "fb_tool_date_calc":  {
+                              "message":  "日期计算器"
+                          },
+    "fb_cat_code":  {
+                        "message":  "转换与代码"
+                    },
+    "fb_tool_percent_calc":  {
+                                 "message":  "百分比计算器"
+                             },
+    "fb_tool_pomodoro":  {
+                             "message":  "番茄钟"
+                         },
+    "fb_tool_word_count":  {
+                               "message":  "字数统计"
+                           },
+    "fb_tool_csv_json":  {
+                             "message":  "CSV 转 JSON"
+                         },
+    "fb_tool_aspect_ratio":  {
+                                 "message":  "纵横比计算器"
+                             },
+    "fb_tool_qr_reader":  {
+                              "message":  "二维码读取器"
+                          },
+    "fb_tool_random_gen":  {
+                               "message":  "随机数生成器"
+                           },
+    "fb_tool_color_conv":  {
+                               "message":  "颜色转换"
+                           },
+    "fb_cat_developer":  {
+                             "message":  "开发者工具"
+                         },
+    "fb_tool_utm_gen":  {
+                            "message":  "广告系列 URL 生成器"
+                        },
+    "fb_tool_stopwatch":  {
+                              "message":  "秒表"
+                          },
+    "fb_tool_fake_data":  {
+                              "message":  "虚假数据生成器"
+                          },
+    "fb_tool_uuid_gen":  {
+                             "message":  "UUID 生成器"
+                         },
+    "fb_tool_scrollbar_gen":  {
+                                  "message":  "滚动条自定义"
+                              },
+    "fb_tool_js_obf":  {
+                           "message":  "JS 混淆器"
+                       },
+    "fb_tool_crontab":  {
+                            "message":  "Crontab 解析"
+                        },
+    "fb_tool_js_beautify":  {
+                                "message":  "JS 美化器"
+                            },
+    "fb_cat_text":  {
+                        "message":  "文本与数据工具"
+                    },
+    "fb_tool_curl_code":  {
+                              "message":  "Curl 转代码"
+                          },
+    "fb_tool_jwt":  {
+                        "message":  "JWT 调试器"
+                    },
+    "fb_tool_json_editor":  {
+                                "message":  "JSON 编辑器"
+                            },
+    "fb_tool_meta_tag":  {
+                             "message":  "Meta 标签生成器"
+                         },
+    "fb_tool_md_editor":  {
+                              "message":  "Markdown 编辑器"
+                          },
+    "fb_tool_text_diff":  {
+                              "message":  "文本对比"
+                          },
+    "fb_tool_base64":  {
+                           "message":  "Base64 转换"
+                       },
+    "fb_tool_url_enc":  {
+                            "message":  "URL 编码/解码"
+                        },
+    "fb_cat_conversion":  {
+                              "message":  "转换工具"
+                          },
+    "fb_tool_unix_time":  {
+                              "message":  "Unix 时间转换"
+                          },
+    "fb_tool_hash":  {
+                         "message":  "文本哈希"
+                     },
+    "fb_tool_lorem":  {
+                          "message":  "Lorem Ipsum 生成"
+                      },
+    "fb_tool_img_resize":  {
+                               "message":  "图片缩放"
+                           },
+    "ig_cat_automation":  {
+                              "message":  "自动化"
+                          },
+    "ig_tool_auto_like":  {
+                              "message":  "自动点赞动态"
+                          },
+    "ig_tool_unfollow":  {
+                             "message":  "取消关注未回关者"
+                         },
+    "ig_tool_quick_reply":  {
+                                "message":  "私信快速回复"
+                            },
+    "ig_cat_content":  {
+                           "message":  "内容与下载"
+                       },
+    "ig_tool_story_dl":  {
+                             "message":  "快拍下载"
+                         },
+    "ig_tool_post_dl":  {
+                            "message":  "保存帖子图片/视频"
+                        },
+    "ig_tool_analytics":  {
+                              "message":  "个人资料分析"
+                          },
+    "tt_cat_downloader":  {
+                              "message":  "下载器"
+                          },
+    "tt_tool_no_wm":  {
+                          "message":  "无水印下载"
+                      },
+    "tt_tool_mp3":  {
+                        "message":  "MP3 音频保存"
+                    },
+    "tt_tool_batch":  {
+                          "message":  "批量下载个人资料"
+                      },
+    "tt_cat_automation":  {
+                              "message":  "自动化"
+                          },
+    "tt_tool_scroll":  {
+                           "message":  "自动滚动"
+                       },
+    "tt_tool_hashtag":  {
+                            "message":  "话题生成器"
+                        },
+    "tt_tool_like":  {
+                         "message":  "自动点赞片段"
+                     },
+    "th_cat_moderation":  {
+                              "message":  "审核"
+                          },
+    "th_tool_hide_cmts":  {
+                              "message":  "批量隐藏评论"
+                          },
+    "th_tool_cleanup":  {
+                            "message":  "清理界面"
+                        },
+    "th_tool_antispam":  {
+                             "message":  "防垃圾过滤器"
+                         },
+    "th_cat_utility":  {
+                           "message":  "实用程序"
+                       },
+    "th_tool_export":  {
+                           "message":  "导出 Thread"
+                       },
+    "th_tool_batch_dl":  {
+                             "message":  "媒体批量下载"
+                         },
+    "th_tool_search_opt":  {
+                               "message":  "搜索优化"
+                           },
+    "vi_cat_simulators":  {
+                              "message":  "模拟器"
+                          },
+    "vi_tool_hacker":  {
+                           "message":  "黑客"
+                       },
+    "vi_tool_bios":  {
+                         "message":  "Bios CMOS"
+                     },
+    "vi_tool_google_term":  {
+                                "message":  "Google 终端"
+                            },
+    "vi_tool_startup":  {
+                            "message":  "启动画面"
+                        },
+    "vi_tool_dos":  {
+                        "message":  "在线 Dos"
+                    },
+    "vi_tool_norton":  {
+                           "message":  "Norton Commander"
+                       },
+    "vi_tool_winxp_sim":  {
+                              "message":  "Win XP 模拟器"
+                          },
+    "vi_tool_jurassic_surv":  {
+                                  "message":  "侏罗纪监控"
+                              },
+    "vi_tool_jurassic_con":  {
+                                 "message":  "侏罗纪控制台"
+                             },
+    "vi_cat_updates":  {
+                           "message":  "虚假更新"
+                       },
+    "vi_tool_apple":  {
+                          "message":  "Apple iOS"
+                      },
+    "vi_tool_win7":  {
+                         "message":  "Windows 7"
+                     },
+    "vi_tool_winxp":  {
+                          "message":  "Windows XP"
+                      },
+    "vi_tool_win10":  {
+                          "message":  "Windows 10"
+                      },
+    "vi_cat_animations":  {
+                              "message":  "动画"
+                          },
+    "vi_tool_dvd":  {
+                        "message":  "DVD 屏幕保护"
+                    },
+    "vi_tool_pipes":  {
+                          "message":  "管道屏幕保护"
+                      },
+    "vi_tool_bsod":  {
+                         "message":  "蓝屏死机"
+                     },
+    "vi_tool_crack":  {
+                          "message":  "屏幕破碎"
+                      },
+    "vi_tool_fbi":  {
+                        "message":  "FBI 警告"
+                    },
+    "vi_tool_virus":  {
+                          "message":  "虚假病毒恶作剧"
+                      },
+    "vi_tool_cracked_desktop":  {
+                                    "message":  "桌面破碎"
+                                },
+    "vi_tool_matrix":  {
+                           "message":  "黑客帝国代码雨"
+                       },
+    "vi_tool_static":  {
+                           "message":  "电视雪花噪声"
+                       },
+    "vi_cat_more":  {
+                        "message":  "更多..."
+                    },
+    "vi_tool_chat_ss":  {
+                            "message":  "聊天截图"
+                        },
+    "vi_tool_sounds":  {
+                           "message":  "音效"
+                       },
+    "vi_tool_maze":  {
+                         "message":  "恐怖迷宫"
+                     },
+    "vi_tool_minesweeper":  {
+                                "message":  "扫雷"
+                            },
+    "vi_tool_tetris":  {
+                           "message":  "俄罗斯方块"
+                       },
+    "tt_tool_no_wm_desc":  {
+                               "message":  "下载 TikTok 视频时自动去除水印"
+                           },
+    "tt_tool_scroll_desc":  {
+                                "message":  "播放结束后自动滚动到下一个视频"
+                            },
+    "ig_tool_block_seen":  {
+                               "message":  "隐藏快拍已读"
+                           },
+    "ig_tool_block_seen_desc":  {
+                                    "message":  "观看他人快拍而不显示已读"
+                                },
+    "ig_tool_download_story":  {
+                                   "message":  "快拍快速下载按钮"
+                               },
+    "ig_tool_download_story_desc":  {
+                                        "message":  "在快拍上直接显示下载按钮"
+                                    },
+    "th_tool_block_seen":  {
+                               "message":  "隐藏 Threads 已读"
+                           },
+    "th_tool_block_seen_desc":  {
+                                    "message":  "在 Threads 帖子中隐藏已读状态"
+                                },
+    "th_tool_hide_posts":  {
+                               "message":  "清理界面"
+                           },
+    "th_tool_hide_posts_desc":  {
+                                    "message":  "隐藏推荐帖子和广告"
+                                },
+    "quick_settings":  {
+                           "message":  "快速设置"
+                       },
+    "extensionName":  {
+                          "message":  "Chromex",
+                          "description":  "Extension name shown in Chrome surfaces."
+                      },
+    "extensionDescription":  {
+                                 "message":  "由 Codex 驱动的浏览器助手，可处理页面上下文、标签页、语音和图像编辑。",
+                                 "description":  "Short extension description shown in Chrome and the Chrome Web Store."
+                             },
+    "actionOpenSidePanel":  {
+                                "message":  "打开 Chromex",
+                                "description":  "Tooltip for the browser action button."
+                            },
+    "commandOpenSidePanel":  {
+                                 "message":  "打开 Chromex",
+                                 "description":  "Keyboard shortcut description for opening the side panel."
+                             },
+    "commandOpenPopup":  {
+                             "message":  "打开 Chromex 弹出窗口",
+                             "description":  "Keyboard shortcut description for opening the popup workspace."
+                         },
+    "commandStartDictation":  {
+                                  "message":  "开始/停止听写",
+                                  "description":  "Chrome command description for voice dictation shortcut."
+                              },
+    "contextAskPage":  {
+                           "message":  "向 Chromex 询问此页面",
+                           "description":  "Context menu item for asking about the current page."
+                       },
+    "contextAskSelection":  {
+                                "message":  "Ask AI about selection",
+                                "description":  "Context menu item for asking about selected text."
+                            },
+    "contextEditImage":  {
+                             "message":  "用 Chromex 编辑此图片",
+                             "description":  "Context menu item for editing an image with Chromex."
+                         },
+    "contextSummarizeYoutube":  {
+                                    "message":  "总结此 YouTube 视频",
+                                    "description":  "Context menu item for summarizing a YouTube video."
+                                }
+}

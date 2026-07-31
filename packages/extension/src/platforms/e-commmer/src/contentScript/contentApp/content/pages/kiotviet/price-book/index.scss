@@ -1,0 +1,12 @@
+.k-overlay-modal {
+  .ant-modal-mask {
+    z-index: 99999 !important;
+  }
+  .ant-modal {
+    z-index: 999999 !important;
+  }
+}
+
+.ant-typography {
+  margin-bottom: 0 !important;
+}

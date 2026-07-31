@@ -1,0 +1,630 @@
+{
+    "extension_name":  {
+                           "message":  "Social AIO"
+                       },
+    "extension_description":  {
+                                  "message":  "Kit de herramientas todo en uno para Facebook, Instagram, Threads, TikTok"
+                              },
+    "search_placeholder":  {
+                               "message":  "Buscar herramientas... (Facebook, TikTok, Inspector...)"
+                           },
+    "go_premium":  {
+                       "message":  "Hacerse Premium"
+                   },
+    "support":  {
+                    "message":  "Soporte"
+                },
+    "edit_dock":  {
+                      "message":  "Editar Dock"
+                  },
+    "ai_summarize":  {
+                         "message":  "Resumen IA"
+                     },
+    "facebook_tools":  {
+                           "message":  "Herramientas de Facebook"
+                       },
+    "tiktok_tools":  {
+                         "message":  "Herramientas de TikTok"
+                     },
+    "threads_tools":  {
+                          "message":  "Herramientas de Threads"
+                      },
+    "instagram_tools":  {
+                            "message":  "Herramientas de Instagram"
+                        },
+    "cross_platform":  {
+                           "message":  "Multiplataforma"
+                       },
+    "code_category":  {
+                          "message":  "CÓDIGO"
+                      },
+    "social_media_category":  {
+                                  "message":  "REDES SOCIALES"
+                              },
+    "website_category":  {
+                             "message":  "SITIO WEB"
+                         },
+    "security_privacy_category":  {
+                                      "message":  "SEGURIDAD Y PRIVACIDAD"
+                                  },
+    "inspector":  {
+                      "message":  "Inspector de elementos"
+                  },
+    "analyzer":  {
+                     "message":  "Analizador"
+                 },
+    "mover":  {
+                  "message":  "Mover"
+              },
+    "visual_editor":  {
+                          "message":  "Editor visual"
+                      },
+    "image_element":  {
+                          "message":  "Elemento de imagen"
+                      },
+    "meta_viewer":  {
+                        "message":  "Visor de Meta"
+                    },
+    "link_extractor":  {
+                           "message":  "Extractor de enlaces"
+                       },
+    "media_extractor":  {
+                            "message":  "Extractor de medios"
+                        },
+    "open_graph":  {
+                       "message":  "Open Graph"
+                   },
+    "site_stack":  {
+                       "message":  "Stack del sitio"
+                   },
+    "anti_phishing":  {
+                          "message":  "Protección Anti-Phishing"
+                      },
+    "block_pixel":  {
+                        "message":  "Bloquear Facebook Pixel"
+                    },
+    "block_pixel_desc":  {
+                             "message":  "Bloquear píxeles de seguimiento de Facebook"
+                         },
+    "block_seen_chat":  {
+                            "message":  "Bloquear Visto (Chat)"
+                        },
+    "block_seen_chat_desc":  {
+                                 "message":  "Ocultar estado de visto en el chat de Facebook"
+                             },
+    "block_typing_chat":  {
+                              "message":  "Bloquear Escribiendo (Chat)"
+                          },
+    "block_typing_chat_desc":  {
+                                   "message":  "Ocultar indicador de escribiendo en el chat"
+                               },
+    "block_seen_story":  {
+                             "message":  "Bloquear Visto (Story)"
+                         },
+    "block_seen_story_desc":  {
+                                  "message":  "Ocultar estado de visto en Facebook Stories"
+                              },
+    "stop_news_feed":  {
+                           "message":  "Detener Feed de Noticias"
+                       },
+    "stop_news_feed_desc":  {
+                                "message":  "Dejar de cargar contenido nuevo para mantener la concentración"
+                            },
+    "show_reactions":  {
+                           "message":  "Mostrar reacciones detalladas"
+                       },
+    "show_reactions_desc":  {
+                                "message":  "Ver el número exacto de Likes/Corazones en las publicaciones"
+                            },
+    "fb_video_download":  {
+                              "message":  "Botón de descarga rápida de video"
+                          },
+    "fb_video_download_desc":  {
+                                   "message":  "Mostrar botón de descarga en los videos"
+                               },
+    "show_timer":  {
+                       "message":  "Mostrar temporizador de uso"
+                   },
+    "show_timer_desc":  {
+                            "message":  "Mostrar el tiempo pasado en Facebook"
+                        },
+    "fb_timer_summary":  {
+                             "message":  "Has pasado tiempo en Facebook hoy."
+                         },
+    "premium_title":  {
+                          "message":  "Pro"
+                      },
+    "premium_subtitle":  {
+                             "message":  "Funciones avanzadas para usuarios expertos"
+                         },
+    "premium_popular":  {
+                            "message":  "Más popular"
+                        },
+    "premium_price_period":  {
+                                 "message":  "/mes"
+                             },
+    "premium_cta":  {
+                        "message":  "Obtener Premium AHORA"
+                    },
+    "premium_feature_free":  {
+                                 "message":  "Todo lo incluido en la versión gratuita"
+                             },
+    "premium_feature_friends":  {
+                                    "message":  "Gestiona tus amigos fácilmente"
+                                },
+    "premium_feature_groups":  {
+                                   "message":  "Gestiona los grupos que administras"
+                               },
+    "premium_feature_ai":  {
+                               "message":  "Evaluación de posts por IA (BYOK)"
+                           },
+    "premium_feature_comments":  {
+                                     "message":  "Escáner de comentarios"
+                                 },
+    "premium_feature_requests":  {
+                                     "message":  "Gestión de solicitudes de amistad"
+                                 },
+    "premium_feature_download":  {
+                                     "message":  "Descargar videos de Facebook e Instagram"
+                                 },
+    "premium_feature_security":  {
+                                     "message":  "Panel de seguridad de cuenta"
+                                 },
+    "premium_feature_backup":  {
+                                   "message":  "Herramienta de backup (Exportar amigos, grupos, páginas)"
+                               },
+    "premium_feature_liked_pages":  {
+                                        "message":  "Gestionar páginas que te gustan"
+                                    },
+    "premium_feature_joined_groups":  {
+                                          "message":  "Gestionar grupos a los que te has unido"
+                                      },
+    "premium_feature_sent_requests":  {
+                                          "message":  "Gestión de solicitudes enviadas"
+                                      },
+    "premium_feature_early_access":  {
+                                         "message":  "Acceso anticipado a nuevas funciones"
+                                     },
+    "fb_cat_features":  {
+                            "message":  "FUNCIONES DE FACEBOOK"
+                        },
+    "fb_tool_home":  {
+                         "message":  "Inicio"
+                     },
+    "fb_tool_security":  {
+                             "message":  "Seguridad de cuenta"
+                         },
+    "fb_tool_friends":  {
+                            "message":  "Amigos"
+                        },
+    "fb_tool_liked_pages":  {
+                                "message":  "Páginas que me gustan"
+                            },
+    "fb_tool_my_posts":  {
+                             "message":  "Mis publicaciones"
+                         },
+    "fb_tool_joined_groups":  {
+                                  "message":  "Grupos unidos"
+                              },
+    "fb_tool_group_settings":  {
+                                   "message":  "Gestión de grupos"
+                               },
+    "fb_tool_following":  {
+                              "message":  "Siguiendo"
+                          },
+    "fb_cat_management":  {
+                              "message":  "HERRAMIENTAS DE GESTIÓN"
+                          },
+    "fb_tool_backup":  {
+                           "message":  "Herramienta de Backup"
+                       },
+    "fb_tool_ai_chat":  {
+                            "message":  "Chat IA"
+                        },
+    "fb_tool_video_download":  {
+                                   "message":  "Descarga de video"
+                               },
+    "fb_tool_comment_scan":  {
+                                 "message":  "Escáner de comentarios"
+                             },
+    "fb_tool_block_list":  {
+                               "message":  "Gestor de lista de bloqueos"
+                           },
+    "fb_tool_bookmarks":  {
+                              "message":  "Marcadores"
+                          },
+    "fb_tool_get_id":  {
+                           "message":  "Obtener Facebook ID"
+                       },
+    "fb_tool_global_ban":  {
+                               "message":  "Bloqueo global"
+                           },
+    "fb_cat_free":  {
+                        "message":  "HERRAMIENTAS GRATUITAS"
+                    },
+    "fb_tool_gmail_dot":  {
+                              "message":  "Truco del punto de Gmail"
+                          },
+    "fb_tool_qr_gen":  {
+                           "message":  "Generador de código QR"
+                       },
+    "fb_tool_my_ip":  {
+                          "message":  "¿Cuál es mi IP?"
+                      },
+    "fb_tool_pass_gen":  {
+                             "message":  "Generador de contraseñas"
+                         },
+    "fb_tool_screenshot_beauty":  {
+                                      "message":  "Embellecedor de capturas"
+                                  },
+    "fb_tool_photo_booth":  {
+                                "message":  "Photo Booth"
+                            },
+    "fb_tool_email_sig":  {
+                              "message":  "Firma de email"
+                          },
+    "fb_tool_cv_gen":  {
+                           "message":  "Creador de CV"
+                       },
+    "fb_cat_utility":  {
+                           "message":  "HERRAMIENTAS DE UTILIDAD"
+                       },
+    "fb_tool_typing_test":  {
+                                "message":  "Test de velocidad de escritura"
+                            },
+    "fb_tool_lucky_wheel":  {
+                                "message":  "Rueda de la suerte"
+                            },
+    "fb_tool_bmi_calc":  {
+                             "message":  "Calculadora de IMC"
+                         },
+    "fb_tool_sleep_calc":  {
+                               "message":  "Calculadora de sueño"
+                           },
+    "fb_tool_currency_conv":  {
+                                  "message":  "Conversor de divisas"
+                              },
+    "fb_tool_contrast_checker":  {
+                                     "message":  "Verificador de contraste"
+                                 },
+    "fb_tool_palette_extract":  {
+                                    "message":  "Extractor de paleta"
+                                },
+    "fb_tool_date_calc":  {
+                              "message":  "Calculadora de fechas"
+                          },
+    "fb_cat_code":  {
+                        "message":  "CONVERSIÓN Y CÓDIGO"
+                    },
+    "fb_tool_percent_calc":  {
+                                 "message":  "Calculadora de porcentajes"
+                             },
+    "fb_tool_pomodoro":  {
+                             "message":  "Temporizador Pomodoro"
+                         },
+    "fb_tool_word_count":  {
+                               "message":  "Contador de palabras"
+                           },
+    "fb_tool_csv_json":  {
+                             "message":  "CSV a JSON"
+                         },
+    "fb_tool_aspect_ratio":  {
+                                 "message":  "Calculadora de relación de aspecto"
+                             },
+    "fb_tool_qr_reader":  {
+                              "message":  "Lector de códigos QR"
+                          },
+    "fb_tool_random_gen":  {
+                               "message":  "Generador de números aleatorios"
+                           },
+    "fb_tool_color_conv":  {
+                               "message":  "Conversor de color"
+                           },
+    "fb_cat_developer":  {
+                             "message":  "HERRAMIENTAS DE DESARROLLADOR"
+                         },
+    "fb_tool_utm_gen":  {
+                            "message":  "Generador de URL de campaña"
+                        },
+    "fb_tool_stopwatch":  {
+                              "message":  "Cronómetro"
+                          },
+    "fb_tool_fake_data":  {
+                              "message":  "Generador de datos falsos"
+                          },
+    "fb_tool_uuid_gen":  {
+                             "message":  "Generador de UUID"
+                         },
+    "fb_tool_scrollbar_gen":  {
+                                  "message":  "Personalizador de scrollbar"
+                              },
+    "fb_tool_js_obf":  {
+                           "message":  "Ofuscador de JS"
+                       },
+    "fb_tool_crontab":  {
+                            "message":  "Explicador de Crontab"
+                        },
+    "fb_tool_js_beautify":  {
+                                "message":  "Embellecedor de JS"
+                            },
+    "fb_cat_text":  {
+                        "message":  "HERRAMIENTAS DE TEXTO Y DATOS"
+                    },
+    "fb_tool_curl_code":  {
+                              "message":  "Curl a código"
+                          },
+    "fb_tool_jwt":  {
+                        "message":  "Depurador de JWT"
+                    },
+    "fb_tool_json_editor":  {
+                                "message":  "Editor de JSON"
+                            },
+    "fb_tool_meta_gen":  {
+                             "message":  "Generador de Meta Tags"
+                         },
+    "fb_tool_md_editor":  {
+                              "message":  "Editor de Markdown"
+                          },
+    "fb_tool_text_diff":  {
+                              "message":  "Diferencia de texto"
+                          },
+    "fb_tool_base64":  {
+                           "message":  "Conversor Base64"
+                       },
+    "fb_tool_url_enc":  {
+                            "message":  "Codificador/Decodificador de URL"
+                        },
+    "fb_cat_conversion":  {
+                              "message":  "HERRAMIENTAS DE CONVERSIÓN"
+                          },
+    "fb_tool_unix_time":  {
+                              "message":  "Conversor de tiempo Unix"
+                          },
+    "fb_tool_hash":  {
+                         "message":  "Hash de texto"
+                     },
+    "fb_tool_lorem":  {
+                          "message":  "Generador Lorem Ipsum"
+                      },
+    "fb_tool_img_resize":  {
+                               "message":  "Redimensionador de imagen"
+                           },
+    "ig_cat_automation":  {
+                              "message":  "AUTOMATIZACIÓN"
+                          },
+    "ig_tool_auto_like":  {
+                              "message":  "Auto Like Feed"
+                          },
+    "ig_tool_unfollow":  {
+                             "message":  "Dejar de seguir a no seguidores"
+                         },
+    "ig_tool_quick_reply":  {
+                                "message":  "Respuesta rápida DM"
+                            },
+    "ig_cat_content":  {
+                           "message":  "CONTENIDO Y DESCARGA"
+                       },
+    "ig_tool_story_dl":  {
+                             "message":  "Descargador de Stories"
+                         },
+    "ig_tool_post_dl":  {
+                            "message":  "Guardar foto/video de post"
+                        },
+    "ig_tool_analytics":  {
+                              "message":  "Analítica de perfil"
+                          },
+    "tt_cat_downloader":  {
+                              "message":  "DESCARGADOR"
+                          },
+    "tt_tool_no_wm":  {
+                          "message":  "Descarga sin marca de agua"
+                      },
+    "tt_tool_mp3":  {
+                        "message":  "Guardar audio MP3"
+                    },
+    "tt_tool_batch":  {
+                          "message":  "Descargador masivo de perfiles"
+                      },
+    "tt_cat_automation":  {
+                              "message":  "AUTOMATIZACIÓN"
+                          },
+    "tt_tool_scroll":  {
+                           "message":  "Scroll automático"
+                       },
+    "tt_tool_hashtag":  {
+                            "message":  "Generador de hashtags"
+                        },
+    "tt_tool_like":  {
+                         "message":  "Auto Like Clips"
+                     },
+    "th_cat_moderation":  {
+                              "message":  "MODERACIÓN"
+                          },
+    "th_tool_hide_cmts":  {
+                              "message":  "Ocultar comentarios masivamente"
+                          },
+    "th_tool_cleanup":  {
+                            "message":  "Limpiar interfaz"
+                        },
+    "th_tool_antispam":  {
+                             "message":  "Filtro Anti-Spam"
+                         },
+    "th_cat_utility":  {
+                           "message":  "UTILIDADES"
+                       },
+    "th_tool_export":  {
+                           "message":  "Exportar Thread"
+                       },
+    "th_tool_batch_dl":  {
+                             "message":  "Descargador masivo de medios"
+                         },
+    "th_tool_search_opt":  {
+                               "message":  "Optimizador de búsqueda"
+                           },
+    "vi_cat_simulators":  {
+                              "message":  "SIMULADORES"
+                          },
+    "vi_tool_hacker":  {
+                           "message":  "Hacker"
+                       },
+    "vi_tool_bios":  {
+                         "message":  "Bios CMOS"
+                     },
+    "vi_tool_google_term":  {
+                                "message":  "Terminal de Google"
+                            },
+    "vi_tool_startup":  {
+                            "message":  "Pantalla de inicio"
+                        },
+    "vi_tool_dos":  {
+                        "message":  "Dos online"
+                    },
+    "vi_tool_norton":  {
+                           "message":  "Norton Commander"
+                       },
+    "vi_tool_winxp_sim":  {
+                              "message":  "Simulador de Win XP"
+                          },
+    "vi_tool_jurassic_surv":  {
+                                  "message":  "Vigilancia Jurásica"
+                              },
+    "vi_tool_jurassic_con":  {
+                                 "message":  "Consola Jurásica"
+                             },
+    "vi_cat_updates":  {
+                           "message":  "ACTUALIZACIONES FALSAS"
+                       },
+    "vi_tool_apple":  {
+                          "message":  "Apple iOS"
+                      },
+    "vi_tool_win7":  {
+                         "message":  "Windows 7"
+                     },
+    "vi_tool_winxp":  {
+                          "message":  "Windows XP"
+                      },
+    "vi_tool_win10":  {
+                          "message":  "Windows 10"
+                      },
+    "vi_cat_animations":  {
+                              "message":  "ANIMACIONES"
+                          },
+    "vi_tool_dvd":  {
+                        "message":  "Salvapantallas DVD"
+                    },
+    "vi_tool_pipes":  {
+                          "message":  "Salvapantallas Tuberías"
+                      },
+    "vi_tool_bsod":  {
+                         "message":  "Pantalla azul de la muerte"
+                     },
+    "vi_tool_crack":  {
+                          "message":  "Pantalla rota"
+                      },
+    "vi_tool_fbi":  {
+                        "message":  "Advertencia del FBI"
+                    },
+    "vi_tool_virus":  {
+                          "message":  "Broma de virus falso"
+                      },
+    "vi_tool_cracked_desktop":  {
+                                    "message":  "Escritorio roto"
+                                },
+    "vi_tool_matrix":  {
+                           "message":  "Lluvia de código Matrix"
+                       },
+    "vi_tool_static":  {
+                           "message":  "Ruido de TV estática"
+                       },
+    "vi_cat_more":  {
+                        "message":  "MÁS..."
+                    },
+    "vi_tool_chat_ss":  {
+                            "message":  "Captura de chat"
+                        },
+    "vi_tool_sounds":  {
+                           "message":  "Efectos de sonido"
+                       },
+    "vi_tool_maze":  {
+                         "message":  "Laberinto de terror"
+                     },
+    "vi_tool_minesweeper":  {
+                                "message":  "Buscaminas"
+                            },
+    "vi_tool_tetris":  {
+                           "message":  "Tetris"
+                       },
+    "tt_tool_no_wm_desc":  {
+                               "message":  "Elimina automáticamente la marca de agua al descargar videos de TikTok"
+                           },
+    "tt_tool_scroll_desc":  {
+                                "message":  "Desliza automáticamente al siguiente video cuando termine"
+                            },
+    "ig_tool_block_seen":  {
+                               "message":  "Ocultar visto en Stories"
+                           },
+    "ig_tool_block_seen_desc":  {
+                                    "message":  "Mira las stories de otros sin que aparezca como visto"
+                                },
+    "ig_tool_download_story":  {
+                                   "message":  "Botón de descarga rápida"
+                               },
+    "ig_tool_download_story_desc":  {
+                                        "message":  "Muestra un botón de descarga directamente en las Stories"
+                                    },
+    "th_tool_block_seen":  {
+                               "message":  "Ocultar visto en Threads"
+                           },
+    "th_tool_block_seen_desc":  {
+                                    "message":  "Ocultar estado de visto en publicaciones de Threads"
+                                },
+    "th_tool_hide_posts":  {
+                               "message":  "Limpiar interfaz"
+                           },
+    "th_tool_hide_posts_desc":  {
+                                    "message":  "Ocultar publicaciones sugeridas y anuncios"
+                                },
+    "quick_settings":  {
+                           "message":  "Ajustes rápidos"
+                       },
+    "extensionName":  {
+                          "message":  "Chromex",
+                          "description":  "Extension name shown in Chrome surfaces."
+                      },
+    "extensionDescription":  {
+                                 "message":  "Un asistente de navegador con tecnología Codex para contexto de páginas, pestañas, voz y edición de imágenes.",
+                                 "description":  "Short extension description shown in Chrome and the Chrome Web Store."
+                             },
+    "actionOpenSidePanel":  {
+                                "message":  "Abrir Chromex",
+                                "description":  "Tooltip for the browser action button."
+                            },
+    "commandOpenSidePanel":  {
+                                 "message":  "Abrir Chromex",
+                                 "description":  "Keyboard shortcut description for opening the side panel."
+                             },
+    "commandOpenPopup":  {
+                             "message":  "Abrir ventana emergente de Chromex",
+                             "description":  "Keyboard shortcut description for opening the popup workspace."
+                         },
+    "commandStartDictation":  {
+                                  "message":  "Start or stop dictation",
+                                  "description":  "Chrome command description for voice dictation shortcut."
+                              },
+    "contextAskPage":  {
+                           "message":  "Preguntar a Chromex sobre esta página",
+                           "description":  "Context menu item for asking about the current page."
+                       },
+    "contextAskSelection":  {
+                                "message":  "Ask AI about selection",
+                                "description":  "Context menu item for asking about selected text."
+                            },
+    "contextEditImage":  {
+                             "message":  "Editar esta imagen con Chromex",
+                             "description":  "Context menu item for editing an image with Chromex."
+                         },
+    "contextSummarizeYoutube":  {
+                                    "message":  "Resumir este video de YouTube",
+                                    "description":  "Context menu item for summarizing a YouTube video."
+                                }
+}

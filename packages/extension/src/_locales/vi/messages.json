@@ -1,0 +1,627 @@
+{
+    "extension_name":  {
+                           "message":  "Social AIO"
+                       },
+    "extension_description":  {
+                                  "message":  "Bộ công cụ tất cả trong một cho Facebook, Instagram, Threads, TikTok"
+                              },
+    "search_placeholder":  {
+                               "message":  "Tìm kiếm công cụ... (Facebook, TikTok, Inspector...)"
+                           },
+    "go_premium":  {
+                       "message":  "Nâng cấp Premium"
+                   },
+    "support":  {
+                    "message":  "Hỗ trợ"
+                },
+    "edit_dock":  {
+                      "message":  "Chỉnh sửa Dock"
+                  },
+    "ai_summarize":  {
+                         "message":  "Tóm tắt AI"
+                     },
+    "facebook_tools":  {
+                           "message":  "Công cụ Facebook"
+                       },
+    "tiktok_tools":  {
+                         "message":  "Công cụ TikTok"
+                     },
+    "threads_tools":  {
+                          "message":  "Công cụ Threads"
+                      },
+    "instagram_tools":  {
+                            "message":  "Công cụ Instagram"
+                        },
+    "cross_platform":  {
+                           "message":  "Đa nền tảng"
+                       },
+    "code_category":  {
+                          "message":  "LẬP TRÌNH"
+                      },
+    "social_media_category":  {
+                                  "message":  "MẠNG XÃ HỘI"
+                              },
+    "website_category":  {
+                             "message":  "WEBSITE"
+                         },
+    "security_privacy_category":  {
+                                      "message":  "BẢO MẬT \u0026 RIÊNG TƯ"
+                                  },
+    "inspector":  {
+                      "message":  "Kiểm tra phần tử"
+                  },
+    "analyzer":  {
+                     "message":  "Phân tích"
+                 },
+    "mover":  {
+                  "message":  "Di chuyển"
+              },
+    "visual_editor":  {
+                          "message":  "Chỉnh sửa trực quan"
+                      },
+    "image_element":  {
+                          "message":  "Phần tử hình ảnh"
+                      },
+    "meta_viewer":  {
+                        "message":  "Xem Meta"
+                    },
+    "link_extractor":  {
+                           "message":  "Trích xuất liên kết"
+                       },
+    "media_extractor":  {
+                            "message":  "Trích xuất media"
+                        },
+    "open_graph":  {
+                       "message":  "Open Graph"
+                   },
+    "site_stack":  {
+                       "message":  "Công nghệ trang web"
+                   },
+    "anti_phishing":  {
+                          "message":  "Bảo vệ lừa đảo"
+                      },
+    "block_pixel":  {
+                        "message":  "Chặn Facebook Pixel"
+                    },
+    "block_pixel_desc":  {
+                             "message":  "Chặn pixel theo dõi của Facebook"
+                         },
+    "block_seen_chat":  {
+                            "message":  "Chặn đã xem tin nhắn"
+                        },
+    "block_seen_chat_desc":  {
+                                 "message":  "Ẩn trạng thái đã xem trong chat Facebook"
+                             },
+    "block_typing_chat":  {
+                              "message":  "Chặn đang nhập tin nhắn"
+                          },
+    "block_typing_chat_desc":  {
+                                   "message":  "Ẩn dấu hiệu đang nhập trong chat"
+                               },
+    "block_seen_story":  {
+                             "message":  "Chặn đã xem Story"
+                         },
+    "block_seen_story_desc":  {
+                                  "message":  "Ẩn đã xem Story trên Facebook"
+                              },
+    "stop_news_feed":  {
+                           "message":  "Chặn bảng tin (Stop Feed)"
+                       },
+    "stop_news_feed_desc":  {
+                                "message":  "Chặn tải tin mới để tập trung làm việc"
+                            },
+    "show_reactions":  {
+                           "message":  "Hiện chi tiết cảm xúc"
+                       },
+    "show_reactions_desc":  {
+                                "message":  "Xem chính xác số lượng Like/Heart bài viết"
+                            },
+    "fb_video_download":  {
+                              "message":  "Nút tải Video nhanh"
+                          },
+    "fb_video_download_desc":  {
+                                   "message":  "Hiện nút tải xuống trên các video"
+                               },
+    "show_timer":  {
+                       "message":  "Hiển thị bộ đếm thời gian"
+                   },
+    "show_timer_desc":  {
+                            "message":  "Hiển thị thời gian sử dụng Facebook"
+                        },
+    "fb_timer_summary":  {
+                             "message":  "Bạn đã dành thời gian trên Facebook hôm nay."
+                         },
+    "premium_title":  {
+                          "message":  "Pro"
+                      },
+    "premium_subtitle":  {
+                             "message":  "Các tính năng nâng cao cho người dùng chuyên nghiệp"
+                         },
+    "premium_popular":  {
+                            "message":  "Phổ biến nhất"
+                        },
+    "premium_price_period":  {
+                                 "message":  "/tháng"
+                             },
+    "premium_cta":  {
+                        "message":  "Nhận Premium NGAY"
+                    },
+    "premium_feature_free":  {
+                                 "message":  "Tất cả tính năng miễn phí"
+                             },
+    "premium_feature_friends":  {
+                                    "message":  "Quản lý bạn bè dễ dàng"
+                                },
+    "premium_feature_groups":  {
+                                   "message":  "Quản lý các nhóm bạn quản lý"
+                               },
+    "premium_feature_ai":  {
+                               "message":  "Đánh giá bài viết bằng AI (BYOK)"
+                           },
+    "premium_feature_comments":  {
+                                     "message":  "Quét bình luận"
+                                 },
+    "premium_feature_requests":  {
+                                     "message":  "Quản lý lời mời kết bạn"
+                                 },
+    "premium_feature_download":  {
+                                     "message":  "Tải video từ Facebook \u0026 Instagram"
+                                 },
+    "premium_feature_security":  {
+                                     "message":  "Bảng điều khiển bảo mật tài khoản"
+                                 },
+    "premium_feature_backup":  {
+                                   "message":  "Công cụ sao lưu (Xuất bạn bè, nhóm, trang)"
+                               },
+    "premium_feature_liked_pages":  {
+                                        "message":  "Quản lý các trang đã thích"
+                                    },
+    "premium_feature_joined_groups":  {
+                                          "message":  "Quản lý các nhóm đã tham gia"
+                                      },
+    "premium_feature_sent_requests":  {
+                                          "message":  "Quản lý lời mời đã gửi"
+                                      },
+    "premium_feature_early_access":  {
+                                         "message":  "Trải nghiệm sớm các tính năng mới"
+                                     },
+    "fb_cat_features":  {
+                            "message":  "TÍNH NĂNG FACEBOOK"
+                        },
+    "fb_tool_home":  {
+                         "message":  "Trang chủ"
+                     },
+    "fb_tool_security":  {
+                             "message":  "Bảo mật tài khoản"
+                         },
+    "fb_tool_friends":  {
+                            "message":  "Bạn bè"
+                        },
+    "fb_tool_liked_pages":  {
+                                "message":  "Trang đã thích"
+                            },
+    "fb_tool_my_posts":  {
+                             "message":  "Bài viết của tôi"
+                         },
+    "fb_tool_joined_groups":  {
+                                  "message":  "Nhóm đã tham gia"
+                              },
+    "fb_tool_group_settings":  {
+                                   "message":  "Quản lý nhóm"
+                               },
+    "fb_tool_following":  {
+                              "message":  "Đang theo dõi"
+                          },
+    "fb_cat_management":  {
+                              "message":  "CÔNG CỤ QUẢN LÝ"
+                          },
+    "fb_tool_backup":  {
+                           "message":  "Công cụ Backup"
+                       },
+    "fb_tool_ai_chat":  {
+                            "message":  "Trò chuyện AI"
+                        },
+    "fb_tool_video_download":  {
+                                   "message":  "Tải video"
+                               },
+    "fb_tool_comment_scan":  {
+                                 "message":  "Quét bình luận"
+                             },
+    "fb_tool_block_list":  {
+                               "message":  "Quản lý Block List"
+                           },
+    "fb_tool_bookmarks":  {
+                              "message":  "Mục đã lưu"
+                          },
+    "fb_tool_get_id":  {
+                           "message":  "Lấy ID Facebook"
+                       },
+    "fb_tool_global_ban":  {
+                               "message":  "Cấm Toàn Cầu"
+                           },
+    "fb_cat_free":  {
+                        "message":  "CÔNG CỤ MIỄN PHÍ"
+                    },
+    "fb_tool_gmail_dot":  {
+                              "message":  "Gmail Dot Trick"
+                          },
+    "fb_tool_qr_gen":  {
+                           "message":  "Tạo Mã QR"
+                       },
+    "fb_tool_my_ip":  {
+                          "message":  "IP của tôi là gì?"
+                      },
+    "fb_tool_pass_gen":  {
+                             "message":  "Tạo Mật Khẩu"
+                         },
+    "fb_tool_screenshot_beauty":  {
+                                      "message":  "Làm Đẹp Screenshot"
+                                  },
+    "fb_tool_photo_booth":  {
+                                "message":  "Photo Booth"
+                            },
+    "fb_tool_email_sig":  {
+                              "message":  "Tạo Chữ Ký Email"
+                          },
+    "fb_tool_cv_gen":  {
+                           "message":  "Tạo CV"
+                       },
+    "fb_cat_utility":  {
+                           "message":  "CÔNG CỤ TIỆN ÍCH"
+                       },
+    "fb_tool_typing_test":  {
+                                "message":  "Kiểm tra tốc độ gõ"
+                            },
+    "fb_tool_lucky_wheel":  {
+                                "message":  "Vòng quay may mắn"
+                            },
+    "fb_tool_bmi_calc":  {
+                             "message":  "Máy Tính BMI"
+                         },
+    "fb_tool_sleep_calc":  {
+                               "message":  "Máy Tính Giấc Ngủ"
+                           },
+    "fb_tool_currency_conv":  {
+                                  "message":  "Chuyển Đổi Tiền Tệ"
+                              },
+    "fb_tool_contrast_checker":  {
+                                     "message":  "Kiểm Tra Độ Tương Phản Màu"
+                                 },
+    "fb_tool_palette_extract":  {
+                                    "message":  "Trích Xuất Bảng Màu"
+                                },
+    "fb_tool_date_calc":  {
+                              "message":  "Tính Ngày"
+                          },
+    "fb_cat_code":  {
+                        "message":  "CHUYỂN ĐỔI \u0026 LẬP TRÌNH"
+                    },
+    "fb_tool_percent_calc":  {
+                                 "message":  "Máy Tính Phần Trăm"
+                             },
+    "fb_tool_pomodoro":  {
+                             "message":  "Pomodoro Timer"
+                         },
+    "fb_tool_word_count":  {
+                               "message":  "Đếm Từ"
+                           },
+    "fb_tool_csv_json":  {
+                             "message":  "Chuyển Đổi CSV sang JSON"
+                         },
+    "fb_tool_aspect_ratio":  {
+                                 "message":  "Máy Tính Tỷ Lệ Khung Hình"
+                             },
+    "fb_tool_qr_reader":  {
+                              "message":  "Đọc Mã QR"
+                          },
+    "fb_tool_random_gen":  {
+                               "message":  "Tạo Số Ngẫu Nhiên"
+                           },
+    "fb_tool_color_conv":  {
+                               "message":  "Chuyển Đổi Màu Sắc"
+                           },
+    "fb_cat_developer":  {
+                             "message":  "CÔNG CỤ LẬP TRÌNH VIÊN"
+                         },
+    "fb_tool_utm_gen":  {
+                            "message":  "Tạo URL Chiến Dịch"
+                        },
+    "fb_tool_stopwatch":  {
+                              "message":  "Đồng Hồ Bấm Giờ"
+                          },
+    "fb_tool_fake_data":  {
+                              "message":  "Tạo Dữ Liệu Giả"
+                          },
+    "fb_tool_uuid_gen":  {
+                             "message":  "Tạo UUID"
+                         },
+    "fb_tool_scrollbar_gen":  {
+                                  "message":  "Tùy chỉnh Scrollbar"
+                              },
+    "fb_tool_js_obf":  {
+                           "message":  "JS Obfuscator"
+                       },
+    "fb_tool_crontab":  {
+                            "message":  "Giải Thích Crontab"
+                        },
+    "fb_tool_js_beautify":  {
+                                "message":  "JS Beautify"
+                            },
+    "fb_cat_text":  {
+                        "message":  "VĂN BẢN \u0026 DỮ LIỆU"
+                    },
+    "fb_tool_curl_code":  {
+                              "message":  "Curl to Code"
+                          },
+    "fb_tool_jwt":  {
+                        "message":  "JWT Debugger"
+                    },
+    "fb_tool_json_editor":  {
+                                "message":  "Trình Soạn Thảo JSON"
+                            },
+    "fb_tool_meta_gen":  {
+                             "message":  "Tạo Meta Tag"
+                         },
+    "fb_tool_md_editor":  {
+                              "message":  "Trình Soạn Thảo Markdown"
+                          },
+    "fb_tool_text_diff":  {
+                              "message":  "So sánh Văn Bản"
+                          },
+    "fb_tool_base64":  {
+                           "message":  "Chuyển Đổi Base64"
+                       },
+    "fb_tool_url_enc":  {
+                            "message":  "Mã Hóa \u0026 Giải Mã URL"
+                        },
+    "fb_cat_conversion":  {
+                              "message":  "CÔNG CỤ CHUYỂN ĐỔI"
+                          },
+    "fb_tool_unix_time":  {
+                              "message":  "Chuyển Đổi Unix Time"
+                          },
+    "fb_tool_hash":  {
+                         "message":  "Hash Text"
+                     },
+    "fb_tool_lorem":  {
+                          "message":  "Tạo Lorem Ipsum"
+                      },
+    "fb_tool_img_resize":  {
+                               "message":  "Resize Ảnh"
+                           },
+    "ig_cat_automation":  {
+                              "message":  "TỰ ĐỘNG HÓA"
+                          },
+    "ig_tool_auto_like":  {
+                              "message":  "Auto Like Feed"
+                          },
+    "ig_tool_unfollow":  {
+                             "message":  "Unfollow Non-Followers"
+                         },
+    "ig_tool_quick_reply":  {
+                                "message":  "Quick Reply DM"
+                            },
+    "ig_cat_content":  {
+                           "message":  "NỘI DUNG \u0026 TẢI XUỐNG"
+                       },
+    "ig_tool_story_dl":  {
+                             "message":  "Story Downloader"
+                         },
+    "ig_tool_post_dl":  {
+                            "message":  "Save Post Image/Video"
+                        },
+    "ig_tool_analytics":  {
+                              "message":  "Profile Analytics"
+                          },
+    "tt_cat_downloader":  {
+                              "message":  "TRÌNH TẢI XUỐNG"
+                          },
+    "tt_tool_no_wm":  {
+                          "message":  "Tải không logo"
+                      },
+    "tt_tool_mp3":  {
+                        "message":  "Lưu âm thanh MP3"
+                    },
+    "tt_tool_batch":  {
+                          "message":  "Tải hàng loạt Profile"
+                      },
+    "tt_cat_automation":  {
+                              "message":  "TỰ ĐỘNG HÓA"
+                          },
+    "tt_tool_scroll":  {
+                           "message":  "Tự động cuộn"
+                       },
+    "tt_tool_hashtag":  {
+                            "message":  "Tạo Hashtag"
+                        },
+    "tt_tool_like":  {
+                         "message":  "Auto Like Clips"
+                     },
+    "th_cat_moderation":  {
+                              "message":  "KIỂM DUYỆT"
+                          },
+    "th_tool_hide_cmts":  {
+                              "message":  "Ẩn bình luận hàng loạt"
+                          },
+    "th_tool_cleanup":  {
+                            "message":  "Dọn dẹp giao diện"
+                        },
+    "th_tool_antispam":  {
+                             "message":  "Bộ lọc Anti-Spam"
+                         },
+    "th_cat_utility":  {
+                           "message":  "TIỆN ÍCH"
+                       },
+    "th_tool_export":  {
+                           "message":  "Xuất Thread"
+                       },
+    "th_tool_batch_dl":  {
+                             "message":  "Tải Media hàng loạt"
+                         },
+    "th_tool_search_opt":  {
+                               "message":  "Tối ưu tìm kiếm"
+                           },
+    "vi_cat_simulators":  {
+                              "message":  "GIẢ LẬP"
+                          },
+    "vi_tool_hacker":  {
+                           "message":  "Hacker"
+                       },
+    "vi_tool_bios":  {
+                         "message":  "Bios CMOS"
+                     },
+    "vi_tool_google_term":  {
+                                "message":  "Google Terminal"
+                            },
+    "vi_tool_startup":  {
+                            "message":  "Màn hình khởi động"
+                        },
+    "vi_tool_dos":  {
+                        "message":  "Online Dos"
+                    },
+    "vi_tool_norton":  {
+                           "message":  "Norton Commander"
+                       },
+    "vi_tool_winxp_sim":  {
+                              "message":  "Win XP Simulator"
+                          },
+    "vi_tool_jurassic_surv":  {
+                                  "message":  "Giám sát kỷ Jura"
+                              },
+    "vi_tool_jurassic_con":  {
+                                 "message":  "Bảng điều khiển kỷ Jura"
+                             },
+    "vi_cat_updates":  {
+                           "message":  "CẬP NHẬT GIẢ"
+                       },
+    "vi_tool_apple":  {
+                          "message":  "Apple iOS"
+                      },
+    "vi_tool_win7":  {
+                         "message":  "Windows 7"
+                     },
+    "vi_tool_winxp":  {
+                          "message":  "Windows XP"
+                      },
+    "vi_tool_win10":  {
+                          "message":  "Windows 10"
+                      },
+    "vi_cat_animations":  {
+                              "message":  "HIỆU ỨNG"
+                          },
+    "vi_tool_dvd":  {
+                        "message":  "DVD Screensaver"
+                    },
+    "vi_tool_pipes":  {
+                          "message":  "Pipes Screensaver"
+                      },
+    "vi_tool_bsod":  {
+                         "message":  "Màn hình xanh chết chóc"
+                     },
+    "vi_tool_crack":  {
+                          "message":  "Màn hình bị nứt"
+                      },
+    "vi_tool_fbi":  {
+                        "message":  "Cảnh báo FBI"
+                    },
+    "vi_tool_virus":  {
+                          "message":  "Virus giả troll"
+                      },
+    "vi_tool_cracked_desktop":  {
+                                    "message":  "Desktop bị vỡ"
+                                },
+    "vi_tool_matrix":  {
+                           "message":  "Matrix Code Rain"
+                       },
+    "vi_tool_static":  {
+                           "message":  "Nhiễu TV"
+                       },
+    "vi_cat_more":  {
+                        "message":  "THÊM..."
+                    },
+    "vi_tool_chat_ss":  {
+                            "message":  "Screenshot Chat"
+                        },
+    "vi_tool_sounds":  {
+                           "message":  "Hiệu ứng âm thanh"
+                       },
+    "vi_tool_maze":  {
+                         "message":  "Mê cung kinh dị"
+                     },
+    "vi_tool_minesweeper":  {
+                                "message":  "Dò mìn"
+                            },
+    "vi_tool_tetris":  {
+                           "message":  "Xếp gạch"
+                       },
+    "tt_tool_no_wm_desc":  {
+                               "message":  "Tự động xóa watermark khi tải video TikTok"
+                           },
+    "tt_tool_scroll_desc":  {
+                                "message":  "Tự động chuyển video tiếp theo khi xem xong"
+                            },
+    "ig_tool_block_seen":  {
+                               "message":  "Ẩn đã xem Story"
+                           },
+    "ig_tool_block_seen_desc":  {
+                                    "message":  "Xem story của người khác mà không hiện đã xem"
+                                },
+    "ig_tool_download_story":  {
+                                   "message":  "Nút tải nhanh Story"
+                               },
+    "ig_tool_download_story_desc":  {
+                                        "message":  "Hiển thị nút tải xuống ngay trên Story"
+                                    },
+    "th_tool_block_seen":  {
+                               "message":  "Ẩn đã xem Threads"
+                           },
+    "th_tool_block_seen_desc":  {
+                                    "message":  "Ẩn trạng thái đã xem bài đăng trên Threads"
+                                },
+    "th_tool_hide_posts":  {
+                               "message":  "Dọn dẹp giao diện"
+                           },
+    "th_tool_hide_posts_desc":  {
+                                    "message":  "Ẩn các bài đăng gợi ý và quảng cáo"
+                                },
+    "extensionName":  {
+                          "message":  "Chromex",
+                          "description":  "Extension name shown in Chrome surfaces."
+                      },
+    "extensionDescription":  {
+                                 "message":  "Trợ lý trình duyệt chạy bằng Codex cho ngữ cảnh trang, tab, giọng nói và chỉnh sửa hình ảnh.",
+                                 "description":  "Short extension description shown in Chrome and the Chrome Web Store."
+                             },
+    "actionOpenSidePanel":  {
+                                "message":  "Mở Chromex",
+                                "description":  "Tooltip for the browser action button."
+                            },
+    "commandOpenSidePanel":  {
+                                 "message":  "Mở Chromex",
+                                 "description":  "Keyboard shortcut description for opening the side panel."
+                             },
+    "commandOpenPopup":  {
+                             "message":  "Mở cửa sổ bật lên Chromex",
+                             "description":  "Keyboard shortcut description for opening the popup workspace."
+                         },
+    "commandStartDictation":  {
+                                  "message":  "Start or stop dictation",
+                                  "description":  "Chrome command description for voice dictation shortcut."
+                              },
+    "contextAskPage":  {
+                           "message":  "Hỏi Chromex về trang này",
+                           "description":  "Context menu item for asking about the current page."
+                       },
+    "contextAskSelection":  {
+                                "message":  "Ask AI about selection",
+                                "description":  "Context menu item for asking about selected text."
+                            },
+    "contextEditImage":  {
+                             "message":  "Chỉnh sửa hình ảnh này bằng Chromex",
+                             "description":  "Context menu item for editing an image with Chromex."
+                         },
+    "contextSummarizeYoutube":  {
+                                    "message":  "Tóm tắt video YouTube này",
+                                    "description":  "Context menu item for summarizing a YouTube video."
+                                }
+}
