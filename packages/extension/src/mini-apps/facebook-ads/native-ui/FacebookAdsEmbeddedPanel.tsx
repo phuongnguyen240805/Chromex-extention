@@ -4,7 +4,6 @@ import {
   createFacebookAdsEmbedUrl,
   FACEBOOK_ADS_CATALOG_ID,
   FACEBOOK_ADS_FRAME_PATH,
-  LEGACY_FACEBOOK_ADS_PREVIEW_ROUTE,
 } from "../config";
 
 export const FACEBOOK_ADS_PANEL_SIZE = {
@@ -15,7 +14,6 @@ export const FACEBOOK_ADS_PANEL_SIZE = {
 function resolvePreviewUrl(): string {
   return createFacebookAdsEmbedUrl({
     webOrigin: process.env.PLASMO_PUBLIC_LADIPAGE_WEB_URL,
-    route: LEGACY_FACEBOOK_ADS_PREVIEW_ROUTE,
     appId: FACEBOOK_ADS_CATALOG_ID,
   });
 }
@@ -57,9 +55,9 @@ export const FacebookAdsEmbeddedPanel = () => {
     >
       <div className="flex shrink-0 items-center justify-between border-b border-[rgba(var(--border-main),var(--border-opacity))] bg-[rgb(var(--bg-card))] px-4 py-2">
         <div className="flex min-w-0 items-center gap-2">
-          <span className="h-2 w-2 shrink-0 rounded-full bg-amber-400" />
+          <span className="h-2 w-2 shrink-0 rounded-full bg-[#1877F2] shadow-[0_0_0_3px_rgba(24,119,242,0.14)]" />
           <span className="truncate text-xs font-medium text-[rgb(var(--text-muted))]">
-            Mock preview từ Ladipage FE
+            LadiPage Facebook Ads
           </span>
         </div>
         <button
@@ -85,7 +83,7 @@ export const FacebookAdsEmbeddedPanel = () => {
         <iframe
           ref={frameRef}
           src={frameUrl}
-          title="Ladipage Facebook Ads mock preview"
+          title="LadiPage Facebook Ads"
           className="h-full w-full border-0 bg-white"
           sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-downloads"
           allow="clipboard-read; clipboard-write; local-network-access; local-network; loopback-network"
