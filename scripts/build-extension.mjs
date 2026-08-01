@@ -16,6 +16,10 @@ await build({
     background: resolve(root, "src/background/index.ts"),
     content: resolve(root, "src/content/index.ts"),
     sidepanel: resolve(root, "src/sidepanel/index.ts"),
+    "tabs/facebook-ads-frame": resolve(
+      root,
+      "src/tabs/facebook-ads-frame-entry.tsx",
+    ),
     "mic-permission": resolve(root, "src/mic-permission/index.ts"),
     offscreen: resolve(root, "src/offscreen/index.ts"),
   },

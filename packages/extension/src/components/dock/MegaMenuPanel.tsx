@@ -125,11 +125,12 @@ CATEGORIES.push(
         description: app.description,
         ladipageAppId: app.id,
         statusLabel:
-          app.embedMode === "upcoming"
+          app.statusLabel ||
+          (app.embedMode === "upcoming"
             ? "Sắp ra mắt"
             : app.embedMode === "partial"
               ? "Nhúng một phần"
-              : "Ứng dụng Ladipage",
+              : "Ứng dụng Ladipage"),
         disabled: app.embedMode === "upcoming",
       }),
     ),

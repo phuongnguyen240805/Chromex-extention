@@ -3899,22 +3899,59 @@ function renderLadipageAppGrid(): string {
         ${LADIPAGE_EMBEDDED_APPS.map(
           (app) => `
             <button
-              class="ladipage-app-tile"
+              class="ladipage-app-tile ladipage-app-tile-facebook-ads"
               type="button"
               role="menuitem"
               data-ladipage-app-id="${escapeAttribute(app.id)}"
             >
-              <span class="ladipage-app-tile-icon" aria-hidden="true">${renderUiIcon("megaphone")}</span>
+              <span class="ladipage-app-tile-topline">
+                <span class="ladipage-app-tile-icon facebook-ads" aria-hidden="true">
+                  <span class="ladipage-app-tile-icon-monogram">f</span>
+                </span>
+                <span class="ladipage-app-tile-badge">${escapeHtml(app.badge)}</span>
+              </span>
               <span class="ladipage-app-tile-copy">
                 <strong>${escapeHtml(app.name)}</strong>
                 <small>${escapeHtml(app.description)}</small>
               </span>
-              <span class="ladipage-app-tile-badge">${escapeHtml(app.badge)}</span>
+              <span class="ladipage-app-tile-modules" aria-label="Phân hệ Facebook Ads">
+                ${app.modules
+                  .map((module) => `<span>${escapeHtml(module)}</span>`)
+                  .join("")}
+              </span>
+              <span class="ladipage-app-tile-footer">
+                <span class="ladipage-app-tile-status-dot" aria-hidden="true"></span>
+                <span>${escapeHtml(app.status)}</span>
+                <span class="ladipage-app-tile-open">Mở Ads Manager ${renderUiIcon("chevron-right")}</span>
+              </span>
             </button>
           `,
         ).join("")}
       </div>
     </section>
+  `;
+}
+
+function renderLadipageEmbeddedLoading(): string {
+  return `
+    <div id="ladipage-embedded-loading" class="ladipage-embedded-loading" role="status">
+      <div class="ladipage-embedded-loading-preview" aria-hidden="true">
+        <div class="ladipage-embedded-loading-banner"></div>
+        <div class="ladipage-embedded-loading-header"></div>
+        <div class="ladipage-embedded-loading-tabs">
+          <span>AD</span><span>BM</span><span>PAGE</span><span>CAMP</span>
+          <i></i>
+        </div>
+        <div class="ladipage-embedded-loading-table">
+          ${Array.from({ length: 7 }, (_, index) => `<span style="--row:${index}"></span>`).join("")}
+        </div>
+      </div>
+      <div class="ladipage-embedded-loading-card">
+        <span class="ladipage-embedded-loading-spinner" aria-hidden="true"></span>
+        <strong>Đang tải Facebook Ads…</strong>
+        <small>AD · BM · PAGE · CAMP</small>
+      </div>
+    </div>
   `;
 }
 
@@ -3925,39 +3962,42 @@ function renderLadipageEmbeddedApp(): string {
   const app = getLadipageEmbeddedApp(activeLadipageAppId);
   const appUrl = createLadipageEmbeddedAppUrl(activeLadipageAppId);
   return `
-    <section class="ladipage-embedded-app" aria-label="${escapeAttribute(app.name)}">
-      <header class="ladipage-embedded-toolbar">
-        <div class="ladipage-embedded-title">
-          <span class="ladipage-embedded-icon" aria-hidden="true">${renderUiIcon("megaphone")}</span>
-          <span>
-            <strong>${escapeHtml(app.name)}</strong>
-            <small>Ladipage · ${escapeHtml(app.badge)}</small>
-          </span>
-        </div>
-        <div class="ladipage-embedded-actions">
-          <a
-            class="ladipage-embedded-action"
-            href="${escapeAttribute(appUrl)}"
-            target="_blank"
-            rel="noreferrer"
-            title="Mở trong tab mới"
-            aria-label="Mở ${escapeAttribute(app.name)} trong tab mới"
-          >${renderUiIcon("external-link")}</a>
-          <button
-            id="close-ladipage-app"
-            class="ladipage-embedded-action"
-            type="button"
-            title="Đóng ứng dụng"
-            aria-label="Đóng ${escapeAttribute(app.name)}"
-          >${renderUiIcon("x")}</button>
-        </div>
-      </header>
+    <section class="ladipage-embedded-app ladipage-embedded-app-facebook-ads" aria-label="${escapeAttribute(app.name)}">
+      <div class="ladipage-embedded-floating-controls">
+        <span class="ladipage-embedded-connection-state">
+          <span class="ladipage-embedded-connection-dot" aria-hidden="true"></span>
+          <span>AdsMeta UI</span>
+        </span>
+        <button
+          class="ladipage-embedded-action"
+          type="button"
+          data-ladipage-embedded-retry
+          title="Tải lại Facebook Ads"
+          aria-label="Tải lại ${escapeAttribute(app.name)}"
+        >${renderUiIcon("refresh")}</button>
+        <a
+          class="ladipage-embedded-action"
+          href="${escapeAttribute(appUrl)}"
+          target="_blank"
+          rel="noreferrer"
+          title="Mở trong tab mới"
+          aria-label="Mở ${escapeAttribute(app.name)} trong tab mới"
+        >${renderUiIcon("external-link")}</a>
+        <button
+          id="close-ladipage-app"
+          class="ladipage-embedded-action"
+          type="button"
+          title="Đóng ứng dụng"
+          aria-label="Đóng ${escapeAttribute(app.name)}"
+        >${renderUiIcon("x")}</button>
+      </div>
+      ${renderLadipageEmbeddedLoading()}
       <div class="ladipage-embedded-frame-shell">
         <iframe
           id="ladipage-embedded-frame"
           src="${escapeAttribute(appUrl)}"
           title="${escapeAttribute(`${app.name} · Ladipage`)}"
-          allow="clipboard-read; clipboard-write"
+          allow="clipboard-read; clipboard-write; local-network-access; local-network; loopback-network"
         ></iframe>
       </div>
     </section>
@@ -13724,6 +13764,38 @@ function bindEvents(): void {
       renderSync();
     });
   });
+
+  const ladipageEmbeddedFrame = root.querySelector<HTMLIFrameElement>("#ladipage-embedded-frame");
+  const ladipageEmbeddedLoading = root.querySelector<HTMLElement>("#ladipage-embedded-loading");
+  const markLadipageEmbeddedReady = () => {
+    ladipageEmbeddedLoading?.classList.add("loaded");
+    root
+      .querySelector<HTMLElement>(".ladipage-embedded-app")
+      ?.classList.add("frame-ready");
+  };
+  ladipageEmbeddedFrame?.addEventListener("load", markLadipageEmbeddedReady, {
+    once: true,
+  });
+
+  root
+    .querySelector<HTMLButtonElement>("[data-ladipage-embedded-retry]")
+    ?.addEventListener("click", () => {
+      if (!ladipageEmbeddedFrame) {
+        return;
+      }
+      ladipageEmbeddedLoading?.classList.remove("loaded");
+      root
+        .querySelector<HTMLElement>(".ladipage-embedded-app")
+        ?.classList.remove("frame-ready");
+      const currentSrc = ladipageEmbeddedFrame.src;
+      ladipageEmbeddedFrame.src = "about:blank";
+      window.setTimeout(() => {
+        ladipageEmbeddedFrame.src = currentSrc;
+        ladipageEmbeddedFrame.addEventListener("load", markLadipageEmbeddedReady, {
+          once: true,
+        });
+      }, 0);
+    });
 
   root.querySelector<HTMLButtonElement>("#close-ladipage-app")?.addEventListener("click", () => {
     activeLadipageAppId = null;

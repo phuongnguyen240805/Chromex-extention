@@ -12714,3 +12714,385 @@ button.primary,
     width: auto;
   }
 }
+
+/* Facebook Ads · AdsMeta parity integration -------------------------------- */
+.ladipage-app-grid {
+  grid-template-columns: 1fr;
+}
+
+.ladipage-app-tile-facebook-ads {
+  min-height: 190px;
+  gap: 12px;
+  padding: 15px;
+  overflow: hidden;
+  border-color: rgba(59, 130, 246, 0.34);
+  background:
+    radial-gradient(circle at 92% 0%, rgba(24, 119, 242, 0.38), transparent 44%),
+    linear-gradient(145deg, rgba(30, 64, 175, 0.26), rgba(15, 23, 42, 0.94));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 18px 50px rgba(2, 6, 23, 0.32);
+}
+
+.ladipage-app-tile-facebook-ads::after {
+  content: "";
+  position: absolute;
+  right: -45px;
+  bottom: -58px;
+  width: 170px;
+  height: 170px;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.12);
+  filter: blur(1px);
+  pointer-events: none;
+}
+
+.ladipage-app-tile-facebook-ads:hover,
+.ladipage-app-tile-facebook-ads:focus-visible {
+  border-color: rgba(96, 165, 250, 0.72);
+  background:
+    radial-gradient(circle at 92% 0%, rgba(24, 119, 242, 0.5), transparent 44%),
+    linear-gradient(145deg, rgba(30, 64, 175, 0.34), rgba(15, 23, 42, 0.98));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 20px 58px rgba(37, 99, 235, 0.2);
+}
+
+.ladipage-app-tile-topline,
+.ladipage-app-tile-footer,
+.ladipage-app-tile-modules {
+  display: flex;
+  align-items: center;
+}
+
+.ladipage-app-tile-topline {
+  justify-content: space-between;
+}
+
+.ladipage-app-tile-icon.facebook-ads {
+  width: 40px;
+  height: 40px;
+  border-radius: 13px;
+  background: linear-gradient(145deg, #2c49f1, #1877f2);
+  box-shadow:
+    0 10px 26px rgba(24, 119, 242, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.26);
+}
+
+.ladipage-app-tile-icon-monogram {
+  transform: translateY(2px);
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.ladipage-app-tile-facebook-ads .ladipage-app-tile-badge {
+  position: static;
+  color: #dbeafe;
+  border: 1px solid rgba(147, 197, 253, 0.26);
+  background: rgba(37, 99, 235, 0.28);
+  letter-spacing: 0.06em;
+}
+
+.ladipage-app-tile-facebook-ads .ladipage-app-tile-copy {
+  align-self: auto;
+  gap: 5px;
+}
+
+.ladipage-app-tile-facebook-ads .ladipage-app-tile-copy strong {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.ladipage-app-tile-facebook-ads .ladipage-app-tile-copy small {
+  color: rgba(226, 232, 240, 0.72);
+  font-size: 10px;
+  line-height: 15px;
+  -webkit-line-clamp: 2;
+}
+
+.ladipage-app-tile-modules {
+  position: relative;
+  z-index: 1;
+  gap: 5px;
+}
+
+.ladipage-app-tile-modules > span {
+  min-width: 34px;
+  padding: 4px 7px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 7px;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 9px;
+  line-height: 12px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.ladipage-app-tile-footer {
+  position: relative;
+  z-index: 1;
+  gap: 6px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: #94a3b8;
+  font-size: 9px;
+  line-height: 13px;
+  font-weight: 650;
+}
+
+.ladipage-app-tile-status-dot,
+.ladipage-embedded-connection-dot {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: #34d399;
+  box-shadow: 0 0 0 3px rgba(52, 211, 153, 0.12);
+}
+
+.ladipage-app-tile-open {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin-left: auto;
+  color: #bfdbfe;
+}
+
+.ladipage-app-tile-open svg {
+  width: 12px;
+  height: 12px;
+}
+
+.ladipage-embedded-app-facebook-ads {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: #020617;
+}
+
+.ladipage-embedded-app-facebook-ads .ladipage-embedded-frame-shell {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: #020617;
+}
+
+.ladipage-embedded-app-facebook-ads .ladipage-embedded-frame-shell iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #020617;
+}
+
+.ladipage-embedded-floating-controls {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 12px;
+  background: rgba(2, 6, 23, 0.76);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.26);
+  backdrop-filter: blur(12px);
+  opacity: 0.52;
+  transition: opacity 150ms ease;
+}
+
+.ladipage-embedded-floating-controls:hover,
+.ladipage-embedded-floating-controls:focus-within {
+  opacity: 1;
+}
+
+.ladipage-embedded-connection-state {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 6px;
+  color: #cbd5e1;
+  font-size: 9px;
+  line-height: 12px;
+  font-weight: 700;
+}
+
+.ladipage-embedded-app-facebook-ads .ladipage-embedded-action {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  color: #cbd5e1;
+}
+
+.ladipage-embedded-app-facebook-ads .ladipage-embedded-action:hover,
+.ladipage-embedded-app-facebook-ads .ladipage-embedded-action:focus-visible {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.ladipage-embedded-loading {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #020617;
+  opacity: 1;
+  visibility: visible;
+  transition:
+    opacity 180ms ease,
+    visibility 180ms ease;
+}
+
+.ladipage-embedded-loading.loaded {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.ladipage-embedded-loading-preview {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-rows: 30px 48px 42px minmax(0, 1fr);
+  opacity: 0.72;
+}
+
+.ladipage-embedded-loading-banner {
+  border-bottom: 1px solid rgba(59, 130, 246, 0.28);
+  background: rgba(30, 64, 175, 0.2);
+}
+
+.ladipage-embedded-loading-header,
+.ladipage-embedded-loading-tabs {
+  background: linear-gradient(90deg, #2c49f1 0%, #1a4dd4 60%, #1877f2 100%);
+}
+
+.ladipage-embedded-loading-tabs {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 6px 7px;
+}
+
+.ladipage-embedded-loading-tabs > span {
+  padding: 7px 11px;
+  border-radius: 7px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.ladipage-embedded-loading-tabs > span:first-child {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.ladipage-embedded-loading-tabs > i {
+  width: 130px;
+  height: 25px;
+  margin-left: 5px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.ladipage-embedded-loading-table {
+  margin: 6px;
+  overflow: hidden;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  background: #0f172a;
+}
+
+.ladipage-embedded-loading-table > span {
+  display: block;
+  height: 44px;
+  border-bottom: 1px solid #1e293b;
+  background:
+    linear-gradient(90deg, #1e293b 0 10%, transparent 10% 12%, #1e293b 12% 26%, transparent 26% 28%, #1e293b 28% 48%, transparent 48% 51%, #1e293b 51% 68%, transparent 68% 72%, #1e293b 72% 88%, transparent 88%);
+  background-size: 100% 7px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.62;
+}
+
+.ladipage-embedded-loading-card {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  justify-items: center;
+  min-width: 210px;
+  padding: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  color: #e2e8f0;
+  background: rgba(15, 23, 42, 0.94);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.42);
+  backdrop-filter: blur(8px);
+}
+
+.ladipage-embedded-loading-card strong {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.ladipage-embedded-loading-card small {
+  margin-top: 3px;
+  color: #64748b;
+  font-size: 9px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+}
+
+.ladipage-embedded-loading-spinner {
+  width: 22px;
+  height: 22px;
+  border: 2px solid rgba(96, 165, 250, 0.22);
+  border-top-color: #60a5fa;
+  border-radius: 999px;
+  animation: ladipage-facebook-ads-spin 0.8s linear infinite;
+}
+
+@keyframes ladipage-facebook-ads-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+:root[data-theme="light"] .ladipage-app-tile-facebook-ads {
+  border-color: rgba(37, 99, 235, 0.28);
+  background:
+    radial-gradient(circle at 92% 0%, rgba(24, 119, 242, 0.2), transparent 44%),
+    linear-gradient(145deg, #eff6ff, #ffffff);
+}
+
+:root[data-theme="light"] .ladipage-app-tile-facebook-ads .ladipage-app-tile-copy strong {
+  color: #0f172a;
+}
+
+:root[data-theme="light"] .ladipage-app-tile-facebook-ads .ladipage-app-tile-copy small,
+:root[data-theme="light"] .ladipage-app-tile-facebook-ads .ladipage-app-tile-footer {
+  color: #64748b;
+}
+
+:root[data-theme="light"] .ladipage-app-tile-modules > span {
+  color: #1e3a8a;
+  border-color: rgba(37, 99, 235, 0.15);
+  background: rgba(37, 99, 235, 0.08);
+}
+
+:root[data-theme="light"] .ladipage-app-tile-open {
+  color: #1d4ed8;
+}

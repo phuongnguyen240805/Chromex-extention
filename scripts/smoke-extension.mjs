@@ -17,6 +17,19 @@ let browserContext;
 try {
   await cp(extensionPath, stagedExtensionPath, { recursive: true });
   const sidepanelHtml = await readFile(join(extensionPath, "sidepanel.html"), "utf8");
+  const facebookAdsFrameHtml = await readFile(
+    join(extensionPath, "tabs", "facebook-ads-frame.html"),
+    "utf8",
+  );
+  await access(
+    join(extensionPath, "tabs", "facebook-ads-frame.js"),
+    fsConstants.R_OK,
+  );
+  if (!facebookAdsFrameHtml.includes('src="facebook-ads-frame.js"')) {
+    throw new Error(
+      "Smoke test failed: Facebook Ads frame HTML does not load its built entry.",
+    );
+  }
   const buildInfo = JSON.parse(await readFile(join(extensionPath, "build-info.json"), "utf8"));
   if (
     typeof buildInfo.buildId !== "string" ||
@@ -92,17 +105,29 @@ try {
   await page.locator('[data-ladipage-app-id="facebook-ads"]').click();
   const ladipageEmbeddedAppState = await page.evaluate(() => {
     const frame = document.querySelector("#ladipage-embedded-frame");
+    const frameUrl = frame instanceof HTMLIFrameElement ? frame.src : "";
+    let parsedFrameUrl = null;
+    try {
+      parsedFrameUrl = frameUrl ? new URL(frameUrl) : null;
+    } catch {
+      parsedFrameUrl = null;
+    }
     return {
       frameVisible: frame instanceof HTMLIFrameElement,
-      frameUrl: frame instanceof HTMLIFrameElement ? frame.src : "",
+      frameUrl,
+      framePath: parsedFrameUrl?.pathname ?? "",
+      embedded: parsedFrameUrl?.searchParams.get("embedded") ?? "",
+      source: parsedFrameUrl?.searchParams.get("source") ?? "",
+      shell: parsedFrameUrl?.searchParams.get("shell") ?? "",
       composerHidden: !document.querySelector("#composer"),
     };
   });
   if (
     !ladipageEmbeddedAppState.frameVisible ||
-    !ladipageEmbeddedAppState.frameUrl.includes(
-      "/extension-preview/facebook-ads?embedded=1&source=extensionpromax",
-    ) ||
+    ladipageEmbeddedAppState.framePath !== "/facebook-ads/manager" ||
+    ladipageEmbeddedAppState.embedded !== "1" ||
+    ladipageEmbeddedAppState.source !== "extensionpromax" ||
+    ladipageEmbeddedAppState.shell !== "adsmeta" ||
     !ladipageEmbeddedAppState.composerHidden
   ) {
     throw new Error(

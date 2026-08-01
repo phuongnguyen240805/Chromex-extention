@@ -1,6 +1,13 @@
-export const DEFAULT_LADIPAGE_WEB_ORIGIN = "http://localhost:3000";
+import {
+  createFacebookAdsEmbedUrl,
+  DEFAULT_LADIPAGE_WEB_ORIGIN as DEFAULT_WEB_ORIGIN,
+  FACEBOOK_ADS_APP_ROUTE,
+  FACEBOOK_ADS_SIDEPANEL_ID,
+} from "../mini-apps/facebook-ads/config";
 
-export type LadipageAppId = "facebook-ads";
+export const DEFAULT_LADIPAGE_WEB_ORIGIN = DEFAULT_WEB_ORIGIN;
+
+export type LadipageAppId = typeof FACEBOOK_ADS_SIDEPANEL_ID;
 
 export type LadipageEmbeddedApp = {
   id: LadipageAppId;
@@ -8,15 +15,20 @@ export type LadipageEmbeddedApp = {
   description: string;
   previewPath: string;
   badge: string;
+  status: string;
+  modules: readonly string[];
 };
 
 export const LADIPAGE_EMBEDDED_APPS: readonly LadipageEmbeddedApp[] = [
   {
-    id: "facebook-ads",
+    id: FACEBOOK_ADS_SIDEPANEL_ID,
     name: "Facebook Ads",
-    description: "Quản lý chiến dịch Meta Ads ngay trong extension.",
-    previewPath: "/extension-preview/facebook-ads",
-    badge: "Preview",
+    description:
+      "Quản lý AD, BM, PAGE, CAMP, quy tắc, báo cáo và phân quyền Meta Ads.",
+    previewPath: FACEBOOK_ADS_APP_ROUTE,
+    badge: "ĐÃ ĐỒNG BỘ",
+    status: "AdsMeta UI",
+    modules: ["AD", "BM", "PAGE", "CAMP"],
   },
 ];
 
@@ -34,21 +46,6 @@ export function createLadipageEmbeddedAppUrl(
   appId: LadipageAppId,
   webOrigin = DEFAULT_LADIPAGE_WEB_ORIGIN,
 ): string {
-  const app = getLadipageEmbeddedApp(appId);
-  const url = new URL(app.previewPath, normalizeWebOrigin(webOrigin));
-  url.searchParams.set("embedded", "1");
-  url.searchParams.set("source", "extensionpromax");
-  return url.toString();
-}
-
-function normalizeWebOrigin(value: string): string {
-  try {
-    const url = new URL(value.trim());
-    if (url.protocol === "http:" || url.protocol === "https:") {
-      return url.toString();
-    }
-  } catch {
-    // Fall back to the local Ladipage preview below.
-  }
-  return DEFAULT_LADIPAGE_WEB_ORIGIN;
+  getLadipageEmbeddedApp(appId);
+  return createFacebookAdsEmbedUrl({ webOrigin });
 }

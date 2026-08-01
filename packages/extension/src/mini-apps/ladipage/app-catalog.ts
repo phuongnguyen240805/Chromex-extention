@@ -15,6 +15,10 @@ import {
   Workflow,
   type LucideIcon,
 } from "lucide-react";
+import {
+  FACEBOOK_ADS_APP_ROUTE,
+  LEGACY_FACEBOOK_ADS_PREVIEW_ROUTE,
+} from "../facebook-ads/config";
 
 export type LadipageAppCategory =
   | "marketing"
@@ -34,6 +38,8 @@ export type LadipageAppDefinition = {
   icon: LucideIcon;
   color: string;
   embedMode: LadipageAppEmbedMode;
+  statusLabel?: string;
+  modules?: readonly string[];
 };
 
 export const LADIPAGE_APP_PANEL_SIZE = {
@@ -90,12 +96,14 @@ export const LADIPAGE_APPS: LadipageAppDefinition[] = [
     id: "10",
     name: "Facebook Ads",
     toolName: "Facebook Ads · Ladipage",
-    description: "Quản lý chiến dịch, tài khoản quảng cáo và báo cáo Facebook Ads.",
+    description: "Quản lý AD, BM, PAGE, CAMP, quy tắc, báo cáo và phân quyền Meta Ads.",
     category: "marketing",
-    route: "/extension-preview/facebook-ads",
+    route: FACEBOOK_ADS_APP_ROUTE,
     icon: Megaphone,
-    color: "#2563EB",
+    color: "#1877F2",
     embedMode: "full",
+    statusLabel: "Đã đồng bộ AdsMeta",
+    modules: ["AD", "BM", "PAGE", "CAMP"],
   },
   {
     id: "14",
@@ -213,6 +221,9 @@ export function getLadipageAppById(
   return LADIPAGE_APPS.find((app) => app.id === appId);
 }
 
-export const LADIPAGE_EMBED_ALLOWED_PATHS = LADIPAGE_APPS.flatMap((app) =>
-  app.route ? [app.route] : [],
+export const LADIPAGE_EMBED_ALLOWED_PATHS = Array.from(
+  new Set([
+    ...LADIPAGE_APPS.flatMap((app) => (app.route ? [app.route] : [])),
+    LEGACY_FACEBOOK_ADS_PREVIEW_ROUTE,
+  ]),
 );

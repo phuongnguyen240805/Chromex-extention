@@ -1,9 +1,11 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { ExternalLink, LoaderCircle } from "lucide-react";
-
-const DEFAULT_LADIPAGE_WEB_URL = "http://localhost:3000";
-const FACEBOOK_ADS_PREVIEW_PATH = "/extension-preview/facebook-ads";
-const FACEBOOK_ADS_FRAME_PATH = "tabs/facebook-ads-frame.html";
+import {
+  createFacebookAdsEmbedUrl,
+  FACEBOOK_ADS_CATALOG_ID,
+  FACEBOOK_ADS_FRAME_PATH,
+  LEGACY_FACEBOOK_ADS_PREVIEW_ROUTE,
+} from "../config";
 
 export const FACEBOOK_ADS_PANEL_SIZE = {
   width: 1280,
@@ -11,18 +13,11 @@ export const FACEBOOK_ADS_PANEL_SIZE = {
 } as const;
 
 function resolvePreviewUrl(): string {
-  const configuredBaseUrl =
-    process.env.PLASMO_PUBLIC_LADIPAGE_WEB_URL?.trim() ||
-    DEFAULT_LADIPAGE_WEB_URL;
-
-  try {
-    const url = new URL(FACEBOOK_ADS_PREVIEW_PATH, configuredBaseUrl);
-    url.searchParams.set("embedded", "1");
-    url.searchParams.set("source", "extensionpromax");
-    return url.toString();
-  } catch {
-    return `${DEFAULT_LADIPAGE_WEB_URL}${FACEBOOK_ADS_PREVIEW_PATH}?embedded=1&source=extensionpromax`;
-  }
+  return createFacebookAdsEmbedUrl({
+    webOrigin: process.env.PLASMO_PUBLIC_LADIPAGE_WEB_URL,
+    route: LEGACY_FACEBOOK_ADS_PREVIEW_ROUTE,
+    appId: FACEBOOK_ADS_CATALOG_ID,
+  });
 }
 
 export const FacebookAdsEmbeddedPanel = () => {
@@ -31,6 +26,7 @@ export const FacebookAdsEmbeddedPanel = () => {
     () => {
       const url = new URL(chrome.runtime.getURL(FACEBOOK_ADS_FRAME_PATH));
       url.searchParams.set("target", previewUrl);
+      url.searchParams.set("app", "Facebook Ads");
       return url.toString();
     },
     [previewUrl],
@@ -43,7 +39,9 @@ export const FacebookAdsEmbeddedPanel = () => {
       if (
         event.source === frameRef.current?.contentWindow &&
         event.data?.source === "extensionpromax" &&
-        event.data?.type === "ladipage-facebook-ads-ready"
+        (event.data?.type === "ladipage-facebook-ads-ready" ||
+          (event.data?.type === "ladipage-app-ready" &&
+            event.data?.appId === FACEBOOK_ADS_CATALOG_ID))
       ) {
         setIsLoading(false);
       }
